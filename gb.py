@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-import gb.db as db
-from gb.db import *
-
-from gb.parser import parser, subparsers
+from gb.parser import parser
 
 #import gb.categories as categories
-#import gb.students as students
+
+import gb.students as students
 
 args = parser.parse_args()
 
