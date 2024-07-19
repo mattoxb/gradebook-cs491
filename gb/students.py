@@ -19,15 +19,14 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from pyfzf.pyfzf import FzfPrompt
 
-from gb import db
-from gb.db import session
+from gb.db import session, Base
 from gb.parser import subparsers
 
 # --------------------------------------------------------------------------------
 # Student Class
 # --------------------------------------------------------------------------------
 
-class Student(db.Base):
+class Student(Base):
     "The student information that is in the roster, part of sqlalchemy's ORM."
     __tablename__ = 'students'
 
