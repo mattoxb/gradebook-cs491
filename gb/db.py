@@ -6,6 +6,8 @@ This module contains the database connection code.
 Will add code here to backup and restore the postgres database.
 """
 
+import subprocess
+
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -27,10 +29,15 @@ def init_tables(params):
 
 def backup_database(params):
     "Create a backup of the database"
-    pass
+
+    with open(params['fname'],'w') as file:
+        subprocess.check_call(['pg_dump', DATABASE], stdout=file)
 
 def restore_database(params):
     "Restore the database from backup"
+
+    with open(params['fname']) as file:
+        subprocess.check_call(['psql', DATABASE], stdin=file)
     pass
 
 # --------------------------------------------------------------------------------
@@ -49,12 +56,12 @@ init_parser.set_defaults(func=init_tables)
 
 backup_parser = subs.add_parser('backup', aliases=['b'],
                                 help='Create a backup of the database')
-backup_parser.add_argument('fname', default='database.sql', type=str,
+backup_parser.add_argument('--fname', '-f', default='database.sql', type=str,
                              help='The name of the database backup file')
 backup_parser.set_defaults(func=backup_database)
 
 restore_parser = subs.add_parser('restore', aliases=['r'],
                                 help='Restore the database from backup')
-restore_parser.add_argument('fname', default='database.sql', type=str,
+restore_parser.add_argument('--fname', '-f', default='database.sql', type=str,
                              help='The name of the database restore file')
 restore_parser.set_defaults(func=restore_database)
