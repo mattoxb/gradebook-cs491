@@ -71,7 +71,7 @@ def load_roster(params):
 
     # Open an html table containing the roster.
 
-    table = BeautifulSoup(open(params["fname"],encoding='iso8859').read(),features="html5lib")
+    table = BeautifulSoup(open(params["fname"],encoding='utf-8').read(),features="html5lib")
 
     # Mark all students as provisionally dropped untill we know otherwise
 

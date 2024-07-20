@@ -30,15 +30,14 @@ def init_tables(params):
 def backup_database(params):
     "Create a backup of the database"
 
-    with open(params['fname'],'w') as file:
+    with open(params['fname'],'w', encoding='utf-8') as file:
         subprocess.check_call(['pg_dump', DATABASE], stdout=file)
 
 def restore_database(params):
     "Restore the database from backup"
 
-    with open(params['fname']) as file:
+    with open(params['fname'], encoding='utf-8') as file:
         subprocess.check_call(['psql', DATABASE], stdin=file)
-    pass
 
 # --------------------------------------------------------------------------------
 # Database Parser

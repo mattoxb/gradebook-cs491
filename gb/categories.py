@@ -27,7 +27,7 @@ class Category(Base):
 def load_categories(params):
     "Load the categories into the database."
 
-    with open(params['fname'], encoding='iso8859', newline='') as csvfile:
+    with open(params['fname'], encoding='utf-8', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             q = session.query(Category).filter(Category.slug == row['slug'])
