@@ -13,6 +13,8 @@ needed for each particular semester.
 from gb.parser import parser
 import gb.students
 import gb.categories
+import gb.assignments
+import gb.scores
 
 #import gb.categories as categories
 

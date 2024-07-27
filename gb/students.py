@@ -78,6 +78,7 @@ def load_roster(params):
     session.query(Student).filter(Student.status=='r').update({Student.status: 'D'})
 
     print("New Students:")
+    new_students = []
 
     for row in table.select('table tbody tr'):
         elts = [td.text for td in row.select('td')]
@@ -91,8 +92,8 @@ def load_roster(params):
                 setattr(s,k,v)
 
             s.status = 'r'
+            new_students.append(s.netid)
             print(s)
-            # Add empty scores to database for new students.
         else:
             s = q.first()
             s.section = elts[11]
@@ -114,6 +115,32 @@ def load_roster(params):
 
     session.commit()
 
+    # If no new students we are done.
+    if not new_students:
+        return
+
+    # Otherwise, we need to add pending scores for new students
+    ## First get the assignment ids
+
+    from gb.assignments import Assignment
+    from gb.scores import Score
+
+    ids = []
+    for asn in session.query(Assignment).all():
+        ids.append(asn.id)
+
+    # Get the new students
+
+    for student in session.query(Student).filter(Student.netid.in_(new_students)).all():
+        for assignment in ids:
+            s = Score()
+            s.student_id = student.id
+            s.assignment_id = assignment
+            s.status = 'p'
+            s.score = 0
+            session.add(s)
+
+    session.commit()
 
 def show_roster(args):
     "Create a pandas dataframe of the current students."
@@ -169,7 +196,7 @@ def get_uin(args):
 # Student Parser
 # --------------------------------------------------------------------------------
 
-student_parser = subparsers.add_parser('student', aliases=['s','st'], help='Student commands')
+student_parser = subparsers.add_parser('student', aliases=['st','stu'], help='Student commands')
 student_parser.set_defaults(func=lambda x: student_parser.print_help())
 
 sstp = student_parser.add_subparsers(title='student subcommands', help='student subcommand help')

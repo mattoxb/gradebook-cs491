@@ -35,28 +35,29 @@ def load_categories(params):
                 c = Category()
                 c.slug = row['slug']
                 c.title = row['title']
+                session.add(c)
             else:
                 c = q.first()
                 c.title = row['title']
                 session.add(c)
-        session.commit()
+    session.commit()
+
+    print_categories(params)
 
 def print_categories(params):
     "Print the categories as a pandas dataframe."
 
     q = session.query(Category)
     result = [row.__dict__ for row in q.all()]
-    print(result)
 
     # Remove the '_sa_instance_state' key that SQLAlchemy adds to each row
     for row in result:
         row.pop('_sa_instance_state', None)
 
-        # Create a DataFrame
-        df = pd.DataFrame(result)
+    # Create a DataFrame
+    df = pd.DataFrame(result)[['id','slug','title']]
 
     print(df)
-
 
 # --------------------------------------------------------------------------------
 # Category Parser
@@ -67,11 +68,11 @@ category_parser = subparsers.add_parser('categories', aliases=['c','ca','cat'],
 category_parser.set_defaults(func=lambda x: category_parser.print_help())
 
 subs = category_parser.add_subparsers(title='category subcommands', help='category subcommand help')
-category_parser = subs.add_parser('load', aliases=['l','load'],
+load_parser = subs.add_parser('load', aliases=['l','load'],
                                   help='Load / update the categories.')
-category_parser.add_argument('fname', default='categories.csv', type=str,
+load_parser.add_argument('--fname', '-f', default='categories.csv', type=str,
                              help='The CSV file with the category info.')
-category_parser.set_defaults(func=load_categories)
+load_parser.set_defaults(func=load_categories)
 
-category_parser = subs.add_parser('print', aliases=['p'], help='Print the categories.')
-category_parser.set_defaults(func=print_categories)
+print_parser = subs.add_parser('print', aliases=['p'], help='Print the categories.')
+print_parser.set_defaults(func=print_categories)
