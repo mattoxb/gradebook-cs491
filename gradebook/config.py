@@ -13,6 +13,9 @@ CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
 
 # This is for Coursera, the format is slug: (normal,override)
 
+# For this semester, due to mastery learning, we will not read the exam score from Coursera,
+# but instead read the exam report directly from PL.
+
 COURSERA_MAPPING = {
     'mp-1': ("Original Assessment Grade: MP 1 - Haskell (MPs) (Passing Threshold: 0.8)",
              "Assessment Grade Override: MP 1 - Haskell (MPs) (Passing Threshold: 0.8)"),
@@ -30,14 +33,12 @@ COURSERA_MAPPING = {
                "Assessment Grade Override: Recursion Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-2": ("Original Assessment Grade: Interpreters Quiz (Quiz Total) (Passing Threshold: 0.8)",
                "Assessment Grade Override: Interpreters Quiz (Quiz Total) (Passing Threshold: 0.8)"),
-
     "quiz-3": ("Original Assessment Grade: Building Blocks Quiz (Quiz Total) (Passing Threshold: 0.8)",
                "Assessment Grade Override: Building Blocks Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-4": ("Original Assessment Grade: Lambda Calculus & Semantics Quiz (Quiz Total) (Passing Threshold: 0.8)",
                "Assessment Grade Override: Lambda Calculus & Semantics Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-5": ("Original Assessment Grade: Type Classes and Polymorphism Quiz (Quiz Total) (Passing Threshold: 0.8)",
                "Assessment Grade Override: Type Classes and Polymorphism Quiz (Quiz Total) (Passing Threshold: 0.8)"),
-
     "quiz-6": ("Original Assessment Grade: Monads Quiz (Quiz Total) (Passing Threshold: 0.8)",
                "Assessment Grade Override: Monads Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-7": ("Original Assessment Grade: Grammars Quiz (Quiz Total) (Passing Threshold: 0.8)",

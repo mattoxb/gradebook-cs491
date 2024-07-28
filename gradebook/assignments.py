@@ -13,10 +13,10 @@ import csv
 from sqlalchemy import Column, Integer, String, ForeignKey
 import pandas as pd
 
-from gb.db import session, Base
-from gb.parser import subparsers
+from gradebook.db import session, Base
+from gradebook.parser import subparsers
 
-from gb.categories import Category
+from gradebook.categories import Category
 
 class Assignment(Base):
     "This class holds the information for assignments."
@@ -75,8 +75,8 @@ def load_assignments(params):
 
     print("Adding pending scores for new assignments.")
 
-    from gb.scores import Score
-    from gb.students import Student
+    from gradebook.scores import Score
+    from gradebook.students import Student
 
     # Otherwise, we need to add pending scores for new assignments
     ## First get the student ids

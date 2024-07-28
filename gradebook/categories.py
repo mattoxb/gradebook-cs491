@@ -13,8 +13,8 @@ import csv
 from sqlalchemy import Column, Integer, String
 import pandas as pd
 
-from gb.db import session, Base
-from gb.parser import subparsers
+from gradebook.db import session, Base
+from gradebook.parser import subparsers
 
 class Category(Base):
     "The assignment category information, part of sqlalchemy's ORM."

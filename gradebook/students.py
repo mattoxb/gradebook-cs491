@@ -19,8 +19,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from pyfzf.pyfzf import FzfPrompt
 
-from gb.db import session, Base
-from gb.parser import subparsers
+from gradebook.db import session, Base
+from gradebook.parser import subparsers
 
 # --------------------------------------------------------------------------------
 # Student Class
@@ -122,8 +122,8 @@ def load_roster(params):
     # Otherwise, we need to add pending scores for new students
     ## First get the assignment ids
 
-    from gb.assignments import Assignment
-    from gb.scores import Score
+    from gradebook.assignments import Assignment
+    from gradebook.scores import Score
 
     ids = []
     for asn in session.query(Assignment).all():
@@ -150,7 +150,6 @@ def show_roster(args):
         q = q.filter(Student.section == args['section'])
 
     result = [row.__dict__ for row in q.all()]
-    print(len(result))
 
     # Remove the '_sa_instance_state' key that SQLAlchemy adds to each row
     for row in result:

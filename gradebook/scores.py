@@ -15,13 +15,13 @@ import csv
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Float
 import pandas as pd
 
-from gb.db import session, Base
-from gb.parser import subparsers
+from gradebook.db import session, Base
+from gradebook.parser import subparsers
 
-from gb.assignments import Assignment
-from gb.students import Student
+from gradebook.assignments import Assignment
+from gradebook.students import Student
 
-from gb.config import COURSERA_MAPPING
+from gradebook.config import COURSERA_MAPPING
 
 def isClose(x1,x2,n=2):
     "Compare two floating point numbers to n digits past the decimal."

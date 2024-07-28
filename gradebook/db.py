@@ -12,9 +12,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from gb.config import DATABASE, CONNECTION
+from gradebook.config import DATABASE, CONNECTION
 
-from gb.parser import subparsers
+from gradebook.parser import subparsers
 
 engine = create_engine(CONNECTION)
 Session = sessionmaker(bind=engine)
