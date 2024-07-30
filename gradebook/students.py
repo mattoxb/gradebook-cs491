@@ -122,8 +122,8 @@ def load_roster(params):
     # Otherwise, we need to add pending scores for new students
     ## First get the assignment ids
 
-    from gradebook.assignments import Assignment
-    from gradebook.scores import Score
+    from gb.assignments import Assignment
+    from gb.scores import Score
 
     ids = []
     for asn in session.query(Assignment).all():
@@ -178,6 +178,19 @@ def get_netid(args):
 
     for netid in netids:
         print(netid)
+
+def get_one_netid(args):
+    "Get a single netid.  Intended for use by other functions."
+
+    args['return'] = True
+    roster = show_roster(args)
+
+    names = roster.split('\n')
+
+    return FzfPrompt().prompt(names)[0].split()[1]
+
+def email_to_netid(netid):
+    return netid.replace('@illinois.edu','')
 
 def get_uin(args):
     "Search the roster and select the uin(s)"

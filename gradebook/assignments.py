@@ -15,7 +15,6 @@ import pandas as pd
 
 from gradebook.db import session, Base
 from gradebook.parser import subparsers
-
 from gradebook.categories import Category
 
 class Assignment(Base):
@@ -23,9 +22,10 @@ class Assignment(Base):
     __tablename__ = 'assignments'
 
     id = Column(Integer, primary_key=True)
-    slug = Column(String(20),nullable=False,unique=True)
+    slug = Column(String,nullable=False,unique=True)
     title = Column(String)
     category_id = Column(Integer, ForeignKey('categories.id'))
+    order = Column(Integer)
     max_points = Column(Integer)
 
 def load_assignments(params):
@@ -57,6 +57,7 @@ def load_assignments(params):
                 a.category_id = cids[row['category']]
                 a.title = row['title']
                 a.max_points = int(row['max_points'])
+                a.order = int(row['order'])
 
                 # Keep track of new assignments to insert pending scores.
                 new_asns.append(a.slug)
@@ -66,6 +67,7 @@ def load_assignments(params):
                 a.category_id = cids[row['category']]
                 a.title = row['title']
                 a.max_points = int(row['max_points'])
+                a.order = int(row['order'])
             session.add(a)
     session.commit()
 
@@ -75,31 +77,8 @@ def load_assignments(params):
 
     print("Adding pending scores for new assignments.")
 
-    from gradebook.scores import Score
-    from gradebook.students import Student
-
-    # Otherwise, we need to add pending scores for new assignments
-    ## First get the student ids
-
-    ids = []
-    for stu in session.query(Student).filter(Student.status == 'r').all():
-        ids.append(stu.id)
-
-    print(f'{len(ids)} students, {len(new_asns)} new scores')
-
-    # Get the new assignments.
-
-    for asn in session.query(Assignment).filter(Assignment.slug.in_(new_asns)).all():
-        print(asn.slug)
-        for student in ids:
-            s = Score()
-            s.student_id = student
-            s.assignment_id = asn.id
-            s.status = 'p'
-            s.score = 0
-            session.add(s)
-
-    session.commit()
+    from gradebook.scores import create_pending_scores
+    create_pending_scores(new_asns)
 
 
 def print_assignments(params):

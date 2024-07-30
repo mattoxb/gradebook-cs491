@@ -19,7 +19,7 @@ from gradebook.db import session, Base
 from gradebook.parser import subparsers
 
 from gradebook.assignments import Assignment
-from gradebook.students import Student
+from gradebook.students import Student, get_one_netid
 
 from gradebook.config import COURSERA_MAPPING
 
@@ -39,7 +39,7 @@ class Score(Base):
     status = Column(String(1))
     score = Column(Float)
 
-    __table__args__ = UniqueConstraint('student_id','assignment_id')
+    __table_args__ = (UniqueConstraint('student_id','assignment_id'),)
 
 def coursera_scores(params):
     """Load scores from a Coursera CSV file.  You need to define COURSERA_MAPPINGS in the config
@@ -148,6 +148,9 @@ def load_scores(params):
 def print_scores(params):
     "Print the scores as a pandas dataframe."
 
+    if params['netid'] == 'x':
+        params['netid'] = get_one_netid(params)
+       
     q = session.query(Assignment, Score, Student).filter(Assignment.id == Score.assignment_id,
                                                          Score.student_id == Student.id,
                                                          Student.netid == params['netid'])
@@ -165,9 +168,31 @@ def print_scores(params):
 
     pd.set_option('display.max_rows', None)
 #    out = df[['id','netid','uin','name','section','credit','year','major']].to_string(index=False)
-  
+
     print(df)
 
+def create_pending_scores(new_asns):
+    "Given a list of assignments, create a pending score in the database for all current students."
+
+    ids = []
+    for stu in session.query(Student).filter(Student.status == 'r').all():
+        ids.append(stu.id)
+
+    print(f'{len(ids)} students, {len(new_asns)} new scores')
+
+    # Get the new assignments.
+
+    for asn in session.query(Assignment).filter(Assignment.slug.in_(new_asns)).all():
+        print(asn.slug)
+        for student in ids:
+            s = Score()
+            s.student_id = student
+            s.assignment_id = asn.id
+            s.status = 'p'
+            s.score = 0
+            session.add(s)
+
+    session.commit()
 
 # --------------------------------------------------------------------------------
 # Category Parser
