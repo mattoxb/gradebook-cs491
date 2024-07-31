@@ -371,6 +371,7 @@ def clone_and_run_report(netid,report):
     with open(f"repos/{netid}/README.txt",'w') as sys.stdout:
         report()
     try:
+        subprocess.check_call(['git', '-C', dir_path, 'add', 'README.txt'])
         subprocess.check_call(['git', '-C', dir_path, 'commit', '-am' , '"Grade Report"'])
         subprocess.check_call(['git', '-C', dir_path, 'pull', '--rebase'])
         subprocess.check_call(['git', '-C', dir_path, 'push'])
@@ -408,16 +409,14 @@ def get_report(params):
         netid = params['netid']
         report_netid(netid)
 
-
 # --------------------------------------------------------------------------------
 # Report Parser
 # --------------------------------------------------------------------------------
 
 report_parser = subparsers.add_parser('report', aliases=['r'], help='Report commands')
 
-
 #    Select Netids
-report_parser.add_argument('--netid', '-n', type=str, help='report for a specific netid')
+report_parser.add_argument('--netid', '-n', type=str, default='', help='report for a specific netid')
 report_parser.add_argument('--github', '-g', action='store_true', help='Report to github')
 report_parser.add_argument('--all', '-a', action='store_true', help='Report all of them')
 report_parser.set_defaults(func=get_report)
