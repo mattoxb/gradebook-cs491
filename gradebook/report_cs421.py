@@ -368,7 +368,7 @@ def clone_and_run_report(netid,report):
             # If clone fails, do nothing
             return False
 
-    with open(f"repos/{netid}/README.md",'w') as sys.stdout:
+    with open(f"repos/{netid}/README.txt",'w') as sys.stdout:
         report()
     try:
         subprocess.check_call(['git', '-C', dir_path, 'commit', '-am' , '"Grade Report"'])
