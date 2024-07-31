@@ -11,6 +11,8 @@ and is passed to sqlalchemy's `create_engine`.
 DATABASE = 'cs421-su24-grades'
 CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
 
+GITHUB_URL = 'https://github.com/illinois-cs-coursework/sp24_cs101_{netid}.git'
+
 # This is for Coursera, the format is slug: (normal,override)
 
 # For this semester, due to mastery learning, we will not read the exam score from Coursera,

@@ -179,6 +179,8 @@ def get_netid(args):
     for netid in netids:
         print(netid)
 
+    return netid
+
 def get_one_netid(args):
     "Get a single netid.  Intended for use by other functions."
 

@@ -9,11 +9,18 @@ import pandas as pd
 
 import datetime
 
+# For github stuff
+import os
+import sys
+import subprocess
+from contextlib import redirect_stdout
+
+from gradebook.config import GITHUB_URL
 from gradebook.db import session
 from gradebook.parser import subparsers
 from gradebook.categories import Category
 from gradebook.scores import Score
-from gradebook.students import Student
+from gradebook.students import Student, get_netid
 from gradebook.assignments import Assignment
 from gradebook.exam_zones import Zone
 
@@ -132,11 +139,9 @@ def report_exam(exam,exam_weight,student,final_zones,final_scores):
 
     return exam_score
 
-   
-def report_netid(params):
+def report_netid(netid):
     "Generate a report for a given netid.  Returns the letter grade."
 
-    netid = params['netid']
     student = session.query(Student).filter(Student.netid == netid).first()
 
     if student.credit == 3:
@@ -344,6 +349,64 @@ def report_netid(params):
     print(f'## Total Score: {score:.2f}, Letter Grade: {curve(score)}\n\n')
     return curve(score)
 
+def clone_and_run_report(netid,report):
+    "Clone the repository and try to add the grade report to it."
+    # Define the directory path
+    dir_path = os.path.join('repos', netid)
+
+    # Check if the directory exists
+    if not os.path.isdir(dir_path):
+        # If it doesn't exist, try to clone from the GitHub repository
+        git_url = GITHUB_URL.replace('{netid}',netid)
+        try:
+            # Try to clone the repository
+            subprocess.check_call(['git', 'clone', git_url, dir_path])
+
+            # If cloning is successful, call the report function
+            # return True
+        except subprocess.CalledProcessError:
+            # If clone fails, do nothing
+            return False
+
+    with open(f"repos/{netid}/README.md",'w') as sys.stdout:
+        report()
+    try:
+        subprocess.check_call(['git', '-C', dir_path, 'commit', '-am' , '"Grade Report"'])
+        subprocess.check_call(['git', '-C', dir_path, 'pull', '--rebase'])
+        subprocess.check_call(['git', '-C', dir_path, 'push'])
+    except subprocess.CalledProcessError:
+        pass
+
+    return True
+
+def get_report(params):
+    params['netid'] = params['netid'].replace('@illinois.edu','')
+
+    if params['github']:
+        if params['netid'] == '' and params['all']:
+            query = session.query(Student)
+            for student in query.all():
+                clone_and_run_report(student.netid,lambda: report_netid(student.netid))
+        else:
+            clone_and_run_report(params['netid'], lambda: report_netid(params['netid']))
+            if params['all']:
+                print("Warning: --all flag overridden by explicit mention of a netid.")
+
+    elif params['netid'] == '' and params['all']:  # Output final grades
+        with open(f"/dev/null",'w') as devnull:
+            query = session.query(Student).filter(Student.status=='r')
+            for student in query.all():
+                result = None
+                with redirect_stdout(devnull):
+                    result = report_netid(student.netid)
+                print(f"{student.uin},{result}")
+
+    elif params['netid'] == '':
+        report_netid(get_netid({'return': True}))
+
+    else:
+        netid = params['netid']
+        report_netid(netid)
 
 
 # --------------------------------------------------------------------------------
@@ -351,11 +414,10 @@ def report_netid(params):
 # --------------------------------------------------------------------------------
 
 report_parser = subparsers.add_parser('report', aliases=['r'], help='Report commands')
-report_parser.set_defaults(func=report_parser.print_help)
 
-sstp = report_parser.add_subparsers(title='report subcommands', help='report subcommand help')
 
 #    Select Netids
-get_netid_parser = sstp.add_parser('netid', aliases=['n'], help='report for a specific netid')
-get_netid_parser.add_argument('netid', help='the netid of the student')
-get_netid_parser.set_defaults(func=report_netid)
+report_parser.add_argument('--netid', '-n', type=str, help='report for a specific netid')
+report_parser.add_argument('--github', '-g', action='store_true', help='Report to github')
+report_parser.add_argument('--all', '-a', action='store_true', help='Report all of them')
+report_parser.set_defaults(func=get_report)
