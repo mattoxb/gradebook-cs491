@@ -226,14 +226,14 @@ subs = scores_parser.add_subparsers(title='scores subcommands', help='scores sub
 
 load_parser = subs.add_parser('load', aliases=['l','load'],
                                   help='Load / update the scores.')
-load_parser.add_argument('--fname', '-f', default='scores.csv', type=str,
-                             help='The CSV file with the scores info. \
-                             Column header(s) contains the slug(s).')
+load_parser.add_argument('fname', type=str,
+                         help='The CSV file with the scores info. \
+                         Column header(s) contains the slug(s).')
 load_parser.set_defaults(func=load_scores)
 
 coursera_parser = subs.add_parser('coursera', aliases=['c','coursera'],
                                   help='Load scores from a Coursera csv.')
-coursera_parser.add_argument('fname', default='scores.csv', type=str,
+coursera_parser.add_argument('fname', type=str,
                              help='The CSV file with the scores info. \
                              Column header contains the slug(s).')
 coursera_parser.set_defaults(func=coursera_scores)

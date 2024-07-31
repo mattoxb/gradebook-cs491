@@ -109,7 +109,7 @@ assignment_parser.set_defaults(func=lambda x: assignment_parser.print_help())
 subs = assignment_parser.add_subparsers(title='assignment subcommands', help='assignment subcommand help')
 load_parser = subs.add_parser('load', aliases=['l'],
                                   help='Load / update the assignments.')
-load_parser.add_argument('--fname', '-f', default='assignments.csv', type=str,
+load_parser.add_argument('--fname', '-f', default='data-files/assignments.csv', type=str,
                              help='The CSV file with the assignment info.')
 load_parser.set_defaults(func=load_assignments)
 

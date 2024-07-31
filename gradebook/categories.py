@@ -70,7 +70,7 @@ category_parser.set_defaults(func=lambda x: category_parser.print_help())
 subs = category_parser.add_subparsers(title='category subcommands', help='category subcommand help')
 load_parser = subs.add_parser('load', aliases=['l','load'],
                                   help='Load / update the categories.')
-load_parser.add_argument('--fname', '-f', default='categories.csv', type=str,
+load_parser.add_argument('--fname', '-f', default='data-files/categories.csv', type=str,
                              help='The CSV file with the category info.')
 load_parser.set_defaults(func=load_categories)
 
