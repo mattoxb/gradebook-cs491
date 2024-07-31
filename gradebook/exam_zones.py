@@ -70,9 +70,6 @@ def load_exam_zones(params):
     """Load the PrairieLearn infoAssessment.json and populate the zone information.
     TODO: Auto delete and cascade before adding information."""
 
-    if params['fname'] is None:
-        params['fname'] = params['assignment'] + '.json'
-
     # Get exam assignment
 
     exam = session.query(Assignment).filter(Assignment.slug == params['assignment']).first()
@@ -88,6 +85,9 @@ def load_exam_zones(params):
                                  title = 'Zones')
         session.add(zone_category)
         session.flush() # generate the id
+
+    if params['fname'] == '':
+        params['fname'] = f'data-files/{exam.slug}.json'
 
     # Finally, we are able to open the json file.
 
@@ -197,7 +197,7 @@ def match_coursera_to_roster(uid,name):
         parts = student.name.split(', ')
         swapped = parts[1] + ' ' + parts[0]
 
-        distance = levenshtein_distance(name,swapped)
+        distance = levenshtein_distance(name.lower(),swapped.lower())
         if best_distance is None or distance < best_distance:
             best_student = student
             best_distance = distance
@@ -255,7 +255,6 @@ def load_exam_scores(params):
         empty[z.id] = None
         zones[z.id] = z
 
-    print(empty)
     seen = {}
 
     # Get all the questions
@@ -269,7 +268,6 @@ def load_exam_scores(params):
     for question in query.all():
         questions[question.path] = question
 
-    print(questions)
     # Okay! We can read in the scores now.
 
     with open(params['fname'], newline='') as csvfile:
@@ -287,7 +285,7 @@ def load_exam_scores(params):
                 if row['UIN'] in seen:
                     student = seen[row['UIN']]
                 else:
-                    q = session.Query(Student).filter(Student.uin == row['UIN'])
+                    q = session.query(Student).filter(Student.uin == row['UIN'])
                     if q.count() == 0:
                         print(f"Student UIN {row['UIN']} name {row['Name']} not found.")
                         continue
@@ -299,7 +297,7 @@ def load_exam_scores(params):
                 else:
                     student = match_coursera_to_roster(row['UID'],row['Name'])
                     if student is None:
-                        print(f"Coursera Student {row['Name']} not found.")
+                        print(f"Coursera Student {row['Name']} not found.\nUID: {row['UID']}")
                         continue
                     seen[row['UID']] = student
 
@@ -326,8 +324,8 @@ def load_exam_scores(params):
 # Exam Zone Parser
 # --------------------------------------------------------------------------------
         
-zone_parser = subparsers.add_parser('zones', aliases=['z'],
-                                    help='Zone commands')
+zone_parser = subparsers.add_parser('exam', aliases=['e'],
+                                    help='Exam commands')
 zone_parser.set_defaults(func=zone_parser.print_help)
 
 subs = zone_parser.add_subparsers(title='zone subcommands', help='zone subcommand help')
@@ -335,15 +333,15 @@ load_zones_parser = subs.add_parser('load-zones', aliases=['lz'],
                               help='Load exam zones.')
 load_zones_parser.add_argument('assignment', type=str,
                          help='The slug of the corresponding assignment.')
-load_zones_parser.add_argument('--fname', '-f', default=None, type=str, # will use slug.json if not given
+load_zones_parser.add_argument('--fname', '-f', default='', type=str, # will use slug.json if not given
                          help='The infoAssessment.json file.')
 load_zones_parser.set_defaults(func=load_exam_zones)
 
 load_scores_parser = subs.add_parser('load-scores', aliases=['ls'],
                               help='Load exam scores.')
-load_scores_parser.add_argument('assignment', type=str, 
+load_scores_parser.add_argument('assignment', type=str,
                          help='The slug of the corresponding assignment.')
-load_scores_parser.add_argument('--fname', '-f', default=None, type=str, # will use slug.csv if not given
+load_scores_parser.add_argument('fname', type=str,
                          help='The instance_questions.csv file.')
 load_scores_parser.set_defaults(func=load_exam_scores)
 

@@ -233,6 +233,6 @@ show_roster_parser.set_defaults(func=show_roster)
 #    Import the Roster
 roster_parser = sstp.add_parser('load-roster', aliases=['l','ld','lr','load'],
                                 help='load the roster')
-roster_parser.add_argument('-f', '--fname', type=str, default='rpt_all_students.xls',
-                           help='The file name of the roster, defaults to rpt_all_students.xls')
+roster_parser.add_argument('-f', '--fname', type=str, default='data-files/rpt_all_students.xls',
+                           help='The file name of the roster, defaults to data-files/rpt_all_students.xls')
 roster_parser.set_defaults(func=load_roster)

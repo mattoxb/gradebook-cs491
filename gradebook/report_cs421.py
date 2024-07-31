@@ -383,12 +383,15 @@ def clone_and_run_report(netid,report):
 def get_report(params):
     params['netid'] = params['netid'].replace('@illinois.edu','')
 
+
     if params['github']:
         if params['netid'] == '' and params['all']:
             query = session.query(Student)
             for student in query.all():
                 clone_and_run_report(student.netid,lambda: report_netid(student.netid))
         else:
+            if params['netid'] == '':
+                params['netid'] = get_netid({'return':True})
             clone_and_run_report(params['netid'], lambda: report_netid(params['netid']))
             if params['all']:
                 print("Warning: --all flag overridden by explicit mention of a netid.")
