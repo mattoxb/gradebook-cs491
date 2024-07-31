@@ -12,7 +12,7 @@ There are two functions:
 """
 
 import csv
-from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Float
+from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Float, update
 import pandas as pd
 
 from gradebook.db import session, Base
@@ -138,6 +138,8 @@ def load_scores(params):
                     if row[aslug] == 'NONE':
                         news.status = 'm'
                         news.score = 0
+                    elif row[aslug] == 'x':
+                        news.status = 'x'
                     else:
                         news.status = 'g'
                         news.score = float(row[aslug])
@@ -150,13 +152,13 @@ def print_scores(params):
 
     if params['netid'] == 'x':
         params['netid'] = get_one_netid(params)
-       
+
     q = session.query(Assignment, Score, Student).filter(Assignment.id == Score.assignment_id,
                                                          Score.student_id == Student.id,
                                                          Student.netid == params['netid'])
     # Remove the '_sa_instance_state' key that SQLAlchemy adds to each row
     result = []
-    for (assignment,score,student) in q.all():
+    for (assignment,score,_) in q.all():
         h = {"Slug": assignment.slug,
              "Title": assignment.title,
              "Status": score.status,
@@ -194,6 +196,24 @@ def create_pending_scores(new_asns):
 
     session.commit()
 
+def make_missing_scores(params):
+    "Change all the pending scores to missing for a given assignment."
+
+    ids = []
+    for stu in session.query(Student).filter(Student.status == 'r').all():
+        ids.append(stu.id)
+
+    assignment = session.query(Assignment).where(Assignment.slug == params['assignment']).first()
+    if assignment is None:
+        print("Assignment not found.")
+        return
+
+    statement = update(Score).where(Score.status == 'p',
+                                    Score.assignment_id == assignment.id).values(status='m')
+
+    session.execute(statement)
+    session.commit()
+
 # --------------------------------------------------------------------------------
 # Category Parser
 # --------------------------------------------------------------------------------
@@ -224,3 +244,8 @@ print_parser.add_argument('--netid', '-n', type=str,
 print_parser.add_argument('--assignment', '-a', type=str,
                           help='Print scores for a given assignment.')
 print_parser.set_defaults(func=print_scores)
+
+make_missing_parser = subs.add_parser('missing', aliases=['m','miss'], help='Change pending scores to missing.')
+make_missing_parser.add_argument('assignment', type=str,
+                          help='Make pending scores to be missing.')
+make_missing_parser.set_defaults(func=make_missing_scores)

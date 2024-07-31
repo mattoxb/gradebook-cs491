@@ -24,6 +24,7 @@ from gradebook.parser import subparsers
 from gradebook.assignments import Assignment
 from gradebook.categories import Category
 from gradebook.students import Student
+from gradebook.scores import Score
 from gradebook.utilities import slugify, levenshtein_distance
 from gradebook.scores import create_pending_scores
 
@@ -32,6 +33,7 @@ class Zone(Base):
     __tablename__ = 'zones'
 
     id = Column(Integer, primary_key=True)
+    exam_id = Column(Integer, ForeignKey('assignments.id'))
     assignment_id = Column(Integer, ForeignKey('assignments.id'))
     slug = Column(String,nullable=False,unique=True)
     title = Column(String)
@@ -39,15 +41,17 @@ class Zone(Base):
     max_points = Column(Integer)
 
     def __repr__(this):
-        return f'Zone({this.id} Assignment: {this.assignment_id} Title: {this.title} Slug: {this.slug})'
-       
+        return f'''Zone({this.id} Exam: {this.exam_id} Assignment: {this.assignment_id} \
+        Title: {this.title} Slug: {this.slug})'''
+  
 
 class Question(Base):
     "This class holds the information about the questions in each zone."
     __tablename__ = 'questions'
 
     id = Column(Integer, primary_key=True)
-    assignment_id = Column(Integer, ForeignKey('assignments.id'))
+    exam_id = Column(Integer, ForeignKey('assignments.id'))
+    assignment_id = Column(Integer, ForeignKey('assignments.id')) 
     zone_id = Column(Integer, ForeignKey('zones.id'))
     path = Column(String,nullable=False)
     max_points = Column(Integer)
@@ -61,7 +65,6 @@ class Coursera_UID(Base):
     student_id = Column(Integer,ForeignKey('students.id'))
 
     student = relationship("Student")
-
 
 def load_exam_zones(params):
     """Load the PrairieLearn infoAssessment.json and populate the zone information.
@@ -96,37 +99,42 @@ def load_exam_zones(params):
     for zone_data in data['zones']:
         slug = slugify(exam.slug + ' ' + zone_data['title'])
         print(zone_data['title'] + ': ' + slug)
-        q = session.query(Zone).filter(Zone.assignment_id == exam.id,
-                                       Zone.slug == slug)
+        query = session.query(Zone).filter(Zone.exam_id == exam.id,
+                                           Zone.slug == slug)
         order += 1
 
-        if q.count() == 0:
-            zone = Zone(assignment_id = exam.id,
+        # First we create the zone.  We will create the corresponding
+        # assignment in a bit.
+
+        if query.count() == 0:
+            zone = Zone(exam_id = exam.id,
                         slug = slug,
                         title = zone_data['title'],
                         order = order)
             new_asns.append(slug)
             session.add(zone)
-            session.flush()
+            session.flush()  # we will need the zone id immediately
         else:
-            zone = q.first()
-            print(f'Zone {zone_data["title"]} is already loaded.')
+            zone = query.first()
 
-        q = session.query(Assignment).filter(Assignment.slug == slug)
+        # Get the corresponding assignment that matches the zone.
 
-        if q.count() == 0:
+        query = session.query(Assignment).filter(Assignment.slug == slug)
+
+        if query.count() == 0:
             assignment = Assignment(category_id = zone_category.id,
                                     title = zone_data['title'],
                                     slug = slug,
                                     order = order)
             session.add(assignment)
+            session.flush()  # We will need the assignment id immediately
             new_asns.append(slug)
         else:
-            assignment = q.first()
+            assignment = query.first()
+
+        zone.assignment_id = assignment.id
 
         points = 0
-
-        session.flush()
 
         for question_data in zone_data['questions']:
             points_data = question_data['points']
@@ -137,10 +145,12 @@ def load_exam_zones(params):
             points = points + points_data * question_data['numberChoose']
 
             for alternative in question_data['alternatives']:
-                q = session.query(Question).filter(Question.zone_id == zone.id and
-                                                   Question.path == alternative['id'] )
-                if q.count() == 0:
+                print(alternative)
+                query = session.query(Question).filter(Question.zone_id == zone.id,
+                                                       Question.path == alternative['id'] )
+                if query.count() == 0:
                     question = Question(assignment_id = zone.assignment_id,
+                                        exam_id = zone.exam_id,
                                         zone_id = zone.id,
                                         path = alternative['id'],
                                         max_points = points_data)
@@ -149,7 +159,6 @@ def load_exam_zones(params):
         assignment.max_points = points
         zone.max_points = points
         exam_points += points
-
 
         session.add(assignment)
         session.add(zone)
@@ -168,10 +177,10 @@ def match_coursera_to_roster(uid,name):
     Works by selecting all the names that match the first name, then
     use edit distance to pick the most likely match."""
 
-    q = session.query(Coursera_UID).filter(Coursera_UID.uid == uid)
+    query = session.query(Coursera_UID).filter(Coursera_UID.uid == uid)
 
-    if q.count() == 1:
-        return q.first().student
+    if query.count() == 1:
+        return query.first().student
 
     # Select all the students that have the last name component and pick the one with
     # the minimum levenshtein distance.  Don't search by first name since that is often
@@ -179,12 +188,12 @@ def match_coursera_to_roster(uid,name):
 
     fname = name.split()[-1]
 
-    q = session.query(Student).filter(Student.name.op('~')(fname))
+    query = session.query(Student).filter(Student.name.op('~')(fname))
 
     best_student = None
     best_distance = None
 
-    for student in q.all():
+    for student in query.all():
         parts = student.name.split(', ')
         swapped = parts[1] + ' ' + parts[0]
 
@@ -203,25 +212,114 @@ def match_coursera_to_roster(uid,name):
     session.commit()
     return best_student
 
+def update_exam_scores(student,zones,zone_scores):
+    "Update the zone scores and total score for the student."
+
+    for zid,score in zone_scores.items():
+        score = session.query(Score).filter(Score.student_id == student.id,
+                                            Score.assignment_id == zones[zid].assignment_id).first()
+        if zone_scores[zid] is None:
+            score.status = 'm'
+            score.score = 0
+        else:
+            score.score = zone_scores[zid]
+            score.status = 'g'
+        session.add(score)
+
+    session.commit()
+
 def load_exam_scores(params):
     "Load exam score information and update scores."
 
+    query = session.query(Assignment).filter(Assignment.slug == params['assignment'])
+
+    if query.count() == 0:
+        print("Exam slug not found.")
+        return
+    exam = query.first()
+
+    # Get all the zones that belong to this assignment
+
+    query = session.query(Zone).filter(Zone.exam_id == exam.id)
+    if query.count() == 0:
+        print("This assignment does not have zones recorded.")
+        return
+
+    zones_data = query.all()
+
+    # This will keep track of all the scores for a student so we can update them at the end.
+
+    empty = {}
+    zones = {}
+    for z in zones_data:
+        empty[z.id] = None
+        zones[z.id] = z
+
+    print(empty)
     seen = {}
+
+    # Get all the questions
+
+    query = session.query(Question).filter(Question.exam_id == exam.id)
+    if query.count() == 0:
+        print("This assignment does not have questions recorded.")
+        return
+
+    questions = {}
+    for question in query.all():
+        questions[question.path] = question
+
+    print(questions)
+    # Okay! We can read in the scores now.
 
     with open(params['fname'], newline='') as csvfile:
         reader = csv.DictReader(csvfile)
+        last_student = None
+
+        zone_scores = empty.copy()
+
         for row in reader:
-            if row['UID'] in seen:
+
+            if row['Role'] != 'Student':
                 continue
-            else:
-                seen[row['UID']] = 1
-                student = match_coursera_to_roster(row['UID'],row['Name'])
-                if student is None:
-                    continue
-                print(f"Student is {student.name}")
 
-  
+            if row['UIN'] != '':  # UIUC Entry
+                if row['UIN'] in seen:
+                    student = seen[row['UIN']]
+                else:
+                    q = session.Query(Student).filter(Student.uin == row['UIN'])
+                    if q.count() == 0:
+                        print(f"Student UIN {row['UIN']} name {row['Name']} not found.")
+                        continue
+                    student = q.first()
+                    seen[row['UIN']] = student
+            else: # Coursera Entry
+                if row['UID'] in seen:
+                    student= seen[row['UID']]
+                else:
+                    student = match_coursera_to_roster(row['UID'],row['Name'])
+                    if student is None:
+                        print(f"Coursera Student {row['Name']} not found.")
+                        continue
+                    seen[row['UID']] = student
 
+            # If we have switched students, we need to update their scores.
+
+            if last_student != student:
+                if last_student is not None:
+                    update_exam_scores(last_student,zones,zone_scores)
+                last_student = student
+                zone_scores = empty.copy()
+
+            question = questions[row['Question']]
+            if row['Highest submission score'] != '':
+                if zone_scores[question.zone_id] is None:
+                    zone_scores[question.zone_id] = 0
+
+                zone_scores[question.zone_id] += float(row['Highest submission score']) * question.max_points
+ 
+        # Final entry read, update the last student.
+        update_exam_scores(student,zones,zone_scores)
 
 
 # --------------------------------------------------------------------------------
@@ -233,12 +331,13 @@ zone_parser = subparsers.add_parser('zones', aliases=['z'],
 zone_parser.set_defaults(func=zone_parser.print_help)
 
 subs = zone_parser.add_subparsers(title='zone subcommands', help='zone subcommand help')
-load_parser = subs.add_parser('load-exam', aliases=['le'],
+load_zones_parser = subs.add_parser('load-zones', aliases=['lz'],
                               help='Load exam zones.')
-load_parser.add_argument('assignment', type=str, 
+load_zones_parser.add_argument('assignment', type=str,
                          help='The slug of the corresponding assignment.')
-load_parser.add_argument('--fname', '-f', default=None, type=str, # will use slug.json if not given
+load_zones_parser.add_argument('--fname', '-f', default=None, type=str, # will use slug.json if not given
                          help='The infoAssessment.json file.')
+load_zones_parser.set_defaults(func=load_exam_zones)
 
 load_scores_parser = subs.add_parser('load-scores', aliases=['ls'],
                               help='Load exam scores.')

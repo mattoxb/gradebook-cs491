@@ -15,6 +15,7 @@ from gradebook.categories import Category
 from gradebook.scores import Score
 from gradebook.students import Student
 from gradebook.assignments import Assignment
+from gradebook.exam_zones import Zone
 
 scale = [(97,'A+'), (93,'A'), (90,'A-'),
          (87,'B+'), (83,'B'), (80,'B-'),
@@ -44,16 +45,22 @@ def dropNLowest(scores,n):
     If |scores| < n, drops |scores|-1.
     """
 
+    def dropping_string(n):
+        if n == 1:
+            return "lowest score"
+        else:
+            return f"{n} lowest scores"
+
     scores.sort()
 
     if len(scores) == 0:
         return {}
     if len(scores) < n:
-        print(f"Dropping {len(scores)-1} lowest score(s). " +
-        "(Need > {n} scores before all drops can occur.)")
+        print(f"Dropping {dropping_string(len(scores)-1)}. " +
+        "(Need > {n} scores before all drops can occur.):")
         n = len(scores)-1
     else:
-        print(f"Dropping {n} lowest score(s).")
+        print(f"Dropping {dropping_string(n)}:")
 
     print("  ",end='')
     drops = scores[0:n]
@@ -68,6 +75,64 @@ def show(date):
     "Print the date in a nicely formatted way."
     return date.strftime("%Y-%m-%d %H:%M:%S")
 
+def report_exam(exam,exam_weight,student,final_zones,final_scores):
+
+    print(f"## {exam.title} - Worth {exam_weight / 2:.2f}\n")
+
+    total = 0
+    data = []
+    final_taken = False
+
+    for score in final_scores.values():
+        if score.status == 'g':
+            final_taken = True
+
+    num_zones = 0
+
+    for zone,_,score in session.query(Zone,Assignment,Score). \
+            filter(Zone.exam_id == exam.id,
+                   Zone.assignment_id == Assignment.id,
+                   Score.assignment_id == Assignment.id,
+                   Score.student_id == student.id).order_by(Zone.order).all():
+
+        num_zones += 1
+        score_percent = score.score / zone.max_points * 100
+
+        if final_taken:
+            final_slug = zone.slug.replace(exam.slug,'final')
+            final_score = final_scores[final_slug]
+            if final_score.status == 'g':
+                final_percent = final_score.score / final_zones[final_slug].max_points * 100
+
+                if final_percent >= score_percent:
+                    new_percent = final_percent
+                else:
+                    new_percent = (final_percent + score_percent) / 2
+
+                data.append({'Zone':zone.title, 'Score %': f'{score_percent:.2f}',
+                             'Final': f'{final_percent:.2f}', 'New Score %': f'{new_percent:.2f}'})
+                total = total + new_percent
+            else:
+                data.append({'Zone':zone.title, 'Score %': f'{score_percent:.2f}',
+                             'Final': '', 'New Score %': ''})
+                total = total + score_percent
+        else:
+            data.append({'Zone':zone.title, 'Score %': f'{score_percent:.2f}'})
+            total = total + score_percent
+
+    if data == []:
+        print(" Scores Pending")
+        return None
+
+    exam_score = total / num_zones
+
+    print(pd.DataFrame(data).to_string(index=False))
+
+    print(f"\n - {exam.title} Score %: {exam_score:.2f}%\n\n")
+
+    return exam_score
+
+   
 def report_netid(params):
     "Generate a report for a given netid.  Returns the letter grade."
 
@@ -92,34 +157,37 @@ def report_netid(params):
         print("Netid not found.")
         return None
 
-    print('# Grade Report for {student.netid}\n')
+    print(f'# Grade Report for {student.netid}\n')
     print(f'Generated {show(datetime.datetime.now())}\n\n')
 
     # ------------------------------
     # Quizzes
     # ------------------------------
 
-    print(f"## Quizzes - Worth {quiz_weight}%")
+    print(f"## Quizzes - Worth {quiz_weight}%\n")
 
     quizzes = []
+    data = []
     count = 0
     for (asn,score,cat) in getCategoryScores(student,'quizzes'):
-        s = 0
+        entry = {'Quiz': asn.title}
         if score.status == 'p':
-            print('-', asn.title,'Pending')
-            continue
-        if score.status == 'x':
-            print('-', asn.title,'Excused')
-            continue
-        if score.status == 'm':
-            print('-', asn.title,'Missing')
-            s = 0
+            entry['Score'] = 'Pending'
+        elif score.status == 'x':
+            entry['Score'] = 'Excused'
+        elif score.status == 'm':
+            entry['Score'] = 'Missing'
+            count += 1
+            quizzes.append(0)
         else:
-            print(f'- {asn.title} {score.score:.2f}')
-            s = score.score
+            entry['Score'] = f'{score.score:.2f}'
+            quizzes.append(score.score)
+            count += 1
 
-        quizzes.append(s)
-        count = count + 1.0
+        data.append(entry)
+
+    print(pd.DataFrame(data).to_string(index=False))
+    print()
 
     quiz_total = dropNLowest(quizzes,2)
 
@@ -129,36 +197,118 @@ def report_netid(params):
     # MPs
     # ------------------------------
 
-    print(f"## MPs - Worth {mp_weight}%")
+    print(f"## MPs - Worth {mp_weight}%\n")
 
     mps = []
+    data = []
     count = 0
     for (asn,score,cat) in getCategoryScores(student,'mps'):
+        entry = {'MP': asn.title}
         s = 0
         if score.status == 'p':
-            print('-', asn.title,'Pending')
-            continue
-        if score.status == 'x':
-            print('-', asn.title,'Excused')
-            continue
-        if score.status == 'm':
-            print('-', asn.title,'Missing')
-            s = 0
+            entry['Score'] = 'Pending'
+        elif score.status == 'x':
+            entry['Score'] = 'Excused'
+        elif score.status == 'm':
+            entry['Score'] = 'Missing'
+            mps.append(0)
+            count += 1
         else:
-            print(f'- {asn.title} {score.score:.2f}')
-            s = score.score
+            entry['Score'] = f'{score.score:.2f}'
+            mps.append(score.score)
+            count += 1
 
-        mps.append(s)
-        count = count + 1.0
+        data.append(entry)
+
+    print(pd.DataFrame(data).to_string(index=False))
+    print()
 
     mp_total = dropNLowest(mps,1)
 
     print(f'\n- MP Average: {mp_total:.2f}%\n\n')
 
     # ------------------------------
+    # Exams
+    # ------------------------------
+
+    # The status for an exam should be set to 'pending' until the exam is done.
+    # If the exam is over, the status should be set to 'missing'.
+    # If the status is set to 'x', then it is set to excused.
+    # TODO: Decide what happens to excused exams if zones are retconned.
+
+    exam_count = 0
+    exam_total = 0
+
+    final_zones = {}
+    final_scores = {}
+
+    # Get Final Exam zones
+    query = session.query(Assignment).filter(Assignment.slug == 'final')
+    if query.count() == 0: # Final exam not loaded yet.
+        pass
+    else:
+        final = query.first()
+        for zone,_,score in session.query(Zone,Assignment,Score). \
+                filter(Zone.exam_id == final.id,
+                       Zone.assignment_id == Assignment.id,
+                       Score.assignment_id == Assignment.id,
+                       Score.student_id == student.id).order_by(Zone.order).all():
+            final_zones[zone.slug] = zone
+            final_scores[zone.slug] = score
+
+    # ------------------------------
     # Exam 1
     # ------------------------------
 
+    exam = session.query(Assignment).filter(Assignment.slug == 'exam-1').first()
+
+    exam_status = session.query(Score).filter(Score.student_id == student.id,
+                                              Score.assignment_id == exam.id).first().status
+
+    if exam_status == 'x':
+        print(' - Exam is excused.')
+    else:
+        exam1_score = report_exam(exam,exam_weight,student,final_zones,final_scores)
+
+        if exam1_score is not None:
+            exam_total += exam1_score
+            exam_count += 1
+        else:
+            if exam_status == 'p':
+                print(' - Exam is pending.')
+            elif exam_status == 'm':
+                print(' - Exam is missing.')
+                exam_count += 1
+
+    # ------------------------------
+    # Exam 2
+    # ------------------------------
+
+    exam = session.query(Assignment).filter(Assignment.slug == 'exam-2').first()
+    exam_status = session.query(Score).filter(Score.student_id == student.id,
+                                              Score.assignment_id == exam.id).first().status
+
+    if exam_status == 'x':
+        print(' - Exam is excused.')
+    else:
+        exam2_score = report_exam(exam,exam_weight,student,final_zones,final_scores)
+
+        if exam2_score is not None:
+            exam_total += exam2_score
+            exam_count += 1
+        else:
+            if exam_status == 'p':
+                print(' - Exam is pending.')
+            elif exam_status == 'm':
+                print(' - Exam is missing.')
+                exam_count += 1
+
+    # Summarize Exams
+
+    if exam_count > 0:
+        exam_total /= exam_count
+    else:
+        exam_weight = 0
 
     # ------------------------------
     # Project
@@ -186,13 +336,12 @@ def report_netid(params):
         project_total = s # Maybe not efficient, but keeps the calc code the same.
 
     score = quiz_total * quiz_weight + mp_total * mp_weight + \
-        project_total * project_weight
+        exam_total * exam_weight + project_total * project_weight
 
-    score = score / (quiz_weight + mp_weight + project_weight)
+    score = score / (quiz_weight + mp_weight + exam_weight + project_weight)
 
     print("\n\n")
-    print(f'## Total Score: {score:.2f}\n\n')
-    print(f'## Total Score: {score}, Letter Grade: {curve(score)}\n\n')
+    print(f'## Total Score: {score:.2f}, Letter Grade: {curve(score)}\n\n')
     return curve(score)
 
 
