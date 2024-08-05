@@ -14,11 +14,13 @@ It creates a `student` subcommand with four subcommands of its own:
 - upload roster :: load the rpt_all_students.xls
 """
 
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy.orm import relationship
 import pandas as pd
 from bs4 import BeautifulSoup
 from pyfzf.pyfzf import FzfPrompt
 
+from gradebook.utilities import slugify, levenshtein_distance
 from gradebook.db import session, Base
 from gradebook.parser import subparsers
 
@@ -62,6 +64,17 @@ class Student(Base):
 
         return out
 
+class Coursera_UID(Base):
+    "Mapping from Coursera UID's to Students"
+    __tablename__ = 'coursera_uids'
+
+    id = Column(Integer, primary_key=True)
+    uid = Column(String,unique=True)
+    student_id = Column(Integer,ForeignKey('students.id'))
+    coursera_name = Column(String)
+
+    student = relationship("Student")
+
 # --------------------------------------------------------------------------------
 # Student Functions
 # --------------------------------------------------------------------------------
@@ -97,6 +110,7 @@ def load_roster(params):
         else:
             s = q.first()
             s.section = elts[11]
+            s.credit = elts[6]
             s.status = 'r'
 
         session.add(s)
@@ -167,6 +181,56 @@ def show_roster(args):
     print(out)
     return None
 
+def match_coursera_to_roster(uid,name = None):
+    """Find a match between a Coursera name/UID and UIUC's UID.
+    Works by selecting all the names that match the first name, then
+    use edit distance to pick the most likely match."""
+
+    query = session.query(Coursera_UID).filter(Coursera_UID.uid == uid)
+
+    if query.count() == 1:
+        coursera = query.first()
+        if coursera.coursera_name is None:
+            coursera.coursera_name = name
+            session.add(coursera)
+            session.commit()
+
+        return query.first().student
+
+    # Select all the students that have the last name component and pick the one with
+    # the minimum levenshtein distance.  Don't search by first name since that is often
+    # renamed.
+
+    if name is None:
+        print(f"UID {uid} not found.")
+        return None
+
+    fname = name.split()[-1]
+
+    query = session.query(Student).filter(Student.name.op('~')(fname))
+
+    best_student = None
+    best_distance = None
+
+    for student in query.all():
+        parts = student.name.split(', ')
+        swapped = parts[1] + ' ' + parts[0]
+
+        distance = levenshtein_distance(name.lower(),swapped.lower())
+        if best_distance is None or distance < best_distance:
+            best_student = student
+            best_distance = distance
+
+    if best_student is not None:
+        print(f"Best distance from {name} is {best_student.name} at {best_distance}")
+        best = Coursera_UID(uid = uid, student_id = best_student.id)
+        session.add(best)
+    else:
+        print(f"No match found for {name}")
+
+    session.commit()
+    return best_student
+
 def get_netid(args):
     "Search the roster and select the netid(s)"
     args['return'] = True
@@ -181,7 +245,7 @@ def get_netid(args):
 
     return netid
 
-def get_one_netid(args):
+def get_one_netid(args = {}):
     "Get a single netid.  Intended for use by other functions."
 
     args['return'] = True
@@ -206,6 +270,22 @@ def get_uin(args):
     for uin in uins:
         print(uin)
 
+def get_info(params):
+    "Use the netid (or search it) and return more details about the student."
+
+    netid = params['netid'] or get_one_netid()
+
+    student = session.query(Student).filter(Student.netid == netid).first()
+
+    print(f"Name:       {student.name}")
+    print(f"Datbase ID: {student.id}")
+    print(f"Netid:      {student.netid}")
+    print(f"UIN:        {student.uin}")
+    print(f"Major:      {student.major}")
+    print(f"Section:    {student.section}")
+    print(f"Credit:     {student.credit}")
+    print(f"Year:       {student.year}")
+
 # --------------------------------------------------------------------------------
 # Student Parser
 # --------------------------------------------------------------------------------
@@ -224,6 +304,12 @@ get_netid_parser.set_defaults(func=get_netid)
 get_uin_parser = sstp.add_parser('uin', aliases=['u'], help='get Uins')
 get_uin_parser.add_argument('-s','--section',type=str,help='Filter by section')
 get_uin_parser.set_defaults(func=get_uin)
+
+#    Get Info
+get_info_parser = sstp.add_parser('info', aliases=['i'], help='get info')
+get_info_parser.add_argument('-n','--netid', default='', type=str,help='Filter by section')
+get_info_parser.add_argument('-s','--section',type=str,help='Filter by section')
+get_info_parser.set_defaults(func=get_info)
 
 #    Show the Roster
 show_roster_parser = sstp.add_parser('show-roster', aliases=['s','show'], help='print the roster')

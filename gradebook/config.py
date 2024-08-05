@@ -51,8 +51,8 @@ COURSERA_MAPPING = {
                "Assessment Grade Override: Semantics Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-10": ("Original Assessment Grade: State Quiz (Quiz Total) (Passing Threshold: 0.8)",
                 "Assessment Grade Override: State Quiz (Quiz Total) (Passing Threshold: 0.8)"),
-    "quiz-11": ("Original Assessment Grade: State Quiz (Quiz Total) (Passing Threshold: 0.8)",
-                "Assessment Grade Override: State Quiz (Quiz Total) (Passing Threshold: 0.8)"),
+    "quiz-11": ("Original Assessment Grade: Prolog Quiz (Quiz Total) (Passing Threshold: 0.8)",
+                "Assessment Grade Override: Prolog Quiz (Quiz Total) (Passing Threshold: 0.8)"),
     "quiz-12": ("Original Assessment Grade: Pragmatics Quiz (Quiz Total) (Passing Threshold: 0.8)",
                 "Assessment Grade Override: Pragmatics Quiz (Quiz Total) (Passing Threshold: 0.8)")
     #    ("exam-1": ("Original Assessment Grade: Exam 1 (Passing Threshold: 0.8)",

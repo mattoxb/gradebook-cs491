@@ -19,7 +19,7 @@ from gradebook.db import session, Base
 from gradebook.parser import subparsers
 
 from gradebook.assignments import Assignment
-from gradebook.students import Student, get_one_netid
+from gradebook.students import Student, get_one_netid, match_coursera_to_roster
 
 from gradebook.config import COURSERA_MAPPING
 
@@ -87,14 +87,17 @@ def coursera_scores(params):
                     if the_score.status == 'x':
                         continue
 
-                    # Score exists, but has not changed
-                    if isClose(new_score,the_score.score):
+                    # Score didn't change
+                    if new_score is not None and isClose(new_score,the_score.score):
                         continue
 
-                    # Score is updated.
-
-                    the_score.status = 'g'
-                    the_score.score = float(new_score)
+                    # Score exists, but is missing now.
+                    if new_score is None and the_score.status =='g':
+                        the_score.status = 'm'
+                        the_score.score = 0
+                    else:
+                        the_score.status = 'g'
+                        the_score.score = float(new_score)
 
                     session.add(the_score)
                     changes += 1
@@ -102,49 +105,232 @@ def coursera_scores(params):
         print(f"{changes} scores updated.")
         session.commit()
 
+def none_max(x1,x2):
+    "Returns the max, but handles None."
+
+    if x1 is None:
+        return x2
+    if x2 is None:
+        return x1
+    return max(x1,x2)
+
+def max_key(d,k,x2):
+    if k not in d:
+        d[k] = None
+    d[k] = none_max(d[k],x2)
+    
+def none_sum(xx):
+    "Add integers in a list, some of which may be None."
+    sum = 0
+    for x in xx:
+        if x is not None:
+            sum += x
+    return sum
+
+def load_submissions_scores(params):
+    """Loads scores from a Prairielearn all_submissions file.  Enforces due date and percentages
+    for late submissions.  Hopefully we don't need this next summer."""
+
+    slug = params['assignment']
+
+    assignment = session.query(Assignment).filter(Assignment.slug == slug).first()
+
+    due_dates = {'mp-1': '2024-05-26T23:59:59',
+                 'mp-2': '2024-06-02T23:59:59',
+                 'mp-3': '2024-06-16T23:59:59',
+                 'mp-4': '2024-07-07T23:59:59',
+                 'mp-5': '2024-07-14T23:59:59',
+                 'mp-6': '2024-07-28T23:59:59'}
+    late_dates = {'mp-1': '2024-06-02T23:59:59',
+                  'mp-2': '2024-06-09T23:59:59',
+                  'mp-3': '2024-06-23T23:59:59',
+                  'mp-4': '2024-07-14T23:59:59',
+                  'mp-5': '2024-07-21T23:59:59',
+                  'mp-6': '2024-08-04T23:59:59'}
+
+    mp1a = None
+    mp1b = None
+    is_late = False
+
+    out_file = open('output-files/' + slug + '.txt','w')
+
+    with open(params['fname'], newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        last_student = None
+        on_time = {}
+        late = {}
+
+        seen = {}
+
+        for row in reader:
+            if row['Role'] != 'Student':
+                continue
+
+            # This code should be factored since it is duplicated
+
+            if row['UIN'] != '':  # UIUC Entry
+                if row['UIN'] in seen:
+                    student = seen[row['UIN']]
+                else:
+                    q = session.query(Student).filter(Student.uin == row['UIN'])
+                    if q.count() == 0:
+                        # print(f"Student UIN {row['UIN']} name {row['Name']} not found.")
+                        continue
+                    student = q.first()
+                    seen[row['UIN']] = student
+            else: # Coursera Entry
+                if row['UID'] in seen:
+                    student= seen[row['UID']]
+                else:
+                    student = match_coursera_to_roster(row['UID'],row['Name'])
+                    if student is None:
+                        # print(f"Coursera Student {row['Name']} not found.\nUID: {row['UID']}")
+                        continue
+                    seen[row['UID']] = student
+
+            if student.status != 'r': # skip students who have dropped
+                continue
+            
+            # If we have switched students, we need to update their scores.
+
+            if last_student != student:
+                if last_student is not None:
+                    best_on_time = none_sum(on_time.values()) / assignment.max_points * 100
+                    best_late = none_sum(late.values()) / assignment.max_points * 80
+                    best = max(best_on_time,best_late)
+                    out_file.write(f'{last_student.name} {best}\n')
+                    # Set score here
+                    the_score = session.query(Score).filter(Score.student_id == last_student.id,
+                                                            Score.assignment_id == assignment.id).first()
+                    if the_score is None:
+                        print(f"Score doesn't exist for {last_student.name}!")
+                    the_score.status = 'g'
+                    the_score.score = best
+                    session.add(the_score)
+
+                last_student = student
+                on_time = {}
+                late = {}
+
+            if row['Submission date'] <= due_dates[slug] and row['Score'] != '':
+                out_file.write(f"On time submission {row['Submission date']} of {row['Question']}: {row['Score']} points.\n")
+                max_key(on_time,row['Question'], float(row['Score']) * float(row['Max points']))
+                max_key(late,row['Question'], float(row['Score']) * float(row['Max points']))
+            elif row['Submission date'] <= late_dates[slug] and row['Score'] != '':
+                out_file.write(f"Late submission {row['Submission date']} of {row['Question']}: {row['Score']} points.\n")
+                max_key(late,row['Question'], float(row['Score']) * float(row['Max points']))
+
+        # Loop is done, update last student
+        best_on_time = none_sum(on_time.values()) / assignment.max_points * 100
+        best_late = none_sum(late.values()) / assignment.max_points * 80
+        best = max(best_on_time,best_late)
+        out_file.write(f'{last_student.name} {best}\n')
+        the_score = session.query(Score).filter(Score.student_id == last_student.id,
+                                                Score.assignment_id == assignment.id).first()
+        the_score.status = 'g'
+        the_score.score = best
+        session.add(the_score)
+    
+        out_file.close()
+        session.commit()
+ 
+def update_score(score,new_value):
+    """Given a score ORM and a new value, update the score.
+    Does not create the score if it doesn't exist."""
+
+    if score is None:
+        return
+
+    if new_value == 'NONE' or new_value == 'm':
+        score.status = 'm'
+        score.score = 0
+    elif new_value == 'x':
+        score.status = 'x'
+    else:
+        score.status = 'g'
+        score.score = float(new_value)
+
+    session.add(score)
 
 def load_scores(params):
     """Load the scores from a file that has a student and one or more scores.  Use should provide a
     mapping from the column names to the netid/uin and the assignment slugs."""
 
+    column_map = {}
     aids = {}
+    seen = {}
+
     for asn in session.query(Assignment).all():
         aids[asn.slug] = asn.id
-    print(aids)
+        column_map[asn.slug] = asn.slug
+
+    for i in range(1,13):
+        column_map[f'Quiz {i}'] = f'quiz-{i}'
 
     with open(params['fname'], newline='') as csvfile:
         reader = csv.DictReader(csvfile)
-        for row in reader:
-            q = session.query(Student).filter(Student.netid == row['netid'].split('@')[0])
+        headers = reader.fieldnames
+        has_slug_column = 'slug' in headers
 
-            if q.count() == 0:  # no such student
-                continue
-            student = q.first()
+        for row in reader:
+
+            if 'netid' in row: # manual entry
+                q = session.query(Student).filter(Student.netid == row['netid'].split('@')[0])
+                if q.count() == 0:  # no such student
+                    continue
+                student = q.first()
+            elif row['UIN'] != '':  # UIUC Entry
+                if row['UIN'] in seen:
+                    student = seen[row['UIN']]
+                else:
+                    q = session.query(Student).filter(Student.uin == row['UIN'])
+                    if q.count() == 0:
+                        # print(f"Student UIN {row['UIN']} name {row['Name']} not found.")
+                        continue
+                    student = q.first()
+                    seen[row['UIN']] = student
+            else: # Coursera Entry
+                if row['UID'] in seen:
+                    student= seen[row['UID']]
+                else:
+                    student = match_coursera_to_roster(row['UID'])
+                    if student is None:
+                        # print(f"Coursera Student {row['Name']} not found.\nUID: {row['UID']}")
+                        continue
+                    seen[row['UID']] = student
+
 
             scores = {}
             for s in session.query(Score).filter(Score.student_id == student.id).all():
                 scores[s.assignment_id] = s
 
-            for aslug in aids.keys():
-                if aslug in row.keys():
+            if has_slug_column:
+                slug = row['slug']
 
-                    if aids[aslug] in scores.keys():
-                        news = scores[aids[aslug]]
-                    else:
-                        news = Score()
-                        news.student_id = student.id
-                        news.assignment_id = aids[aslug]
+                if aids[slug] in scores.keys():
+                    news = scores[aids[slug]]
+                else:
+                    news = Score()
+                    news.student_id = student.id
+                    news.assignment_id = aids[slug]
 
-                    if row[aslug] == 'NONE':
-                        news.status = 'm'
-                        news.score = 0
-                    elif row[aslug] == 'x':
-                        news.status = 'x'
-                    else:
-                        news.status = 'g'
-                        news.score = float(row[aslug])
+                update_score(news,row['score'])
 
-                    session.add(news)
+            else:
+
+                for column in column_map.keys():
+                    if column in row.keys():
+                        slug = column_map[column]
+
+                        if aids[slug] in scores.keys():
+                            news = scores[aids[slug]]
+                        else:
+                            news = Score()
+                            news.student_id = student.id
+                            news.assignment_id = aids[slug]
+
+                        update_score(news,row[column])
+
         session.commit()
 
 def print_scores(params):
@@ -196,6 +382,29 @@ def create_pending_scores(new_asns):
 
     session.commit()
 
+def get_students_by_score_status(params):
+    "Get a list of students with a specific score status."
+
+    assignment = session.query(Assignment).where(Assignment.slug == params['assignment']).first()
+    if assignment is None:
+        print("Assignment not found.")
+        return
+
+    query = session.query(Student,Score).where(Score.status == params['status'],
+                                               Score.assignment_id == assignment.id,
+                                               Student.id == Score.student_id)
+
+    if params['email']:
+        for (student,_) in query.all():
+            print(student.email)
+    elif params['netid']:
+        for (student,_) in query.all():
+            print(student.netid)
+    else:
+        for (student,score) in query.all():
+            print(f'{student.name} {student.netid} {score.status} {score.score}')
+
+
 def make_missing_scores(params):
     "Change all the pending scores to missing for a given assignment."
 
@@ -231,6 +440,14 @@ load_parser.add_argument('fname', type=str,
                          Column header(s) contains the slug(s).')
 load_parser.set_defaults(func=load_scores)
 
+load_submissions_parser = subs.add_parser('load-submissions', aliases=['ls'],
+                                  help='Load / update the scores.')
+load_submissions_parser.add_argument('assignment', type=str, help = 'The asssignment slug.')
+load_submissions_parser.add_argument('fname', type=str,
+                         help='The CSV file with the scores info. \
+                         Column header(s) contains the slug(s).')
+load_submissions_parser.set_defaults(func=load_submissions_scores)
+
 coursera_parser = subs.add_parser('coursera', aliases=['c','coursera'],
                                   help='Load scores from a Coursera csv.')
 coursera_parser.add_argument('fname', type=str,
@@ -249,3 +466,15 @@ make_missing_parser = subs.add_parser('missing', aliases=['m','miss'], help='Cha
 make_missing_parser.add_argument('assignment', type=str,
                           help='Make pending scores to be missing.')
 make_missing_parser.set_defaults(func=make_missing_scores)
+
+get_status_parser = subs.add_parser('status', aliases=['st'], help='Get students with scores of a certain status.')
+get_status_parser.add_argument('assignment', type=str,
+                          help='The assignment in question.')
+get_status_parser.add_argument('--pending', '-p', dest='status', action='store_const', const='p', help='Get pending scores.')
+get_status_parser.add_argument('--missing', '-m', dest='status', action='store_const', const='m', help='Get missing scores.')
+get_status_parser.add_argument('--excused', '-x', dest='status', action='store_const', const='x', help='Get excused scores.')
+get_status_parser.add_argument('--graded',  '-g', dest='status', action='store_const', const='g', help='Get graded scores.')
+
+get_status_parser.add_argument('--netid', '-n', action='store_true', help='Just return the list of netids.')
+get_status_parser.add_argument('--email', '-e', action='store_true', help='Just return the list of emails.')
+get_status_parser.set_defaults(func=get_students_by_score_status)

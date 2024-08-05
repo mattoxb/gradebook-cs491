@@ -47,7 +47,7 @@ def load_assignments(params):
 
     new_asns = []
 
-    with open('assignments.csv', newline='') as csvfile:
+    with open('data-files/assignments.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             q = session.query(Assignment).filter(Assignment.slug == row['slug'])

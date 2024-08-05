@@ -84,8 +84,6 @@ def show(date):
 
 def report_exam(exam,exam_weight,student,final_zones,final_scores):
 
-    print(f"## {exam.title} - Worth {exam_weight / 2:.2f}\n")
-
     total = 0
     data = []
     final_taken = False
@@ -139,10 +137,13 @@ def report_exam(exam,exam_weight,student,final_zones,final_scores):
 
     return exam_score
 
-def report_netid(netid):
+def report_netid(netid, uin=''):
     "Generate a report for a given netid.  Returns the letter grade."
 
-    student = session.query(Student).filter(Student.netid == netid).first()
+    if netid == '' and not uin == '':
+        student = session.query(Student).filter(Student.uin == uin).first()
+    else:
+        student = session.query(Student).filter(Student.netid == netid).first()
 
     if student.credit == 3:
         quiz_weight = 12.5
@@ -162,8 +163,9 @@ def report_netid(netid):
         print("Netid not found.")
         return None
 
-    print(f'# Grade Report for {student.netid}\n')
+    print(f'# Grade Report for {student.name} ({student.netid})\n')
     print(f'Generated {show(datetime.datetime.now())}\n\n')
+    print("Errors?  Please email mattox@beckman-park.net\n\n")
 
     # ------------------------------
     # Quizzes
@@ -267,11 +269,17 @@ def report_netid(netid):
 
     exam = session.query(Assignment).filter(Assignment.slug == 'exam-1').first()
 
-    exam_status = session.query(Score).filter(Score.student_id == student.id,
-                                              Score.assignment_id == exam.id).first().status
+    exam_score = session.query(Score).filter(Score.student_id == student.id,
+                                             Score.assignment_id == exam.id).first()
 
-    if exam_status == 'x':
+    print(f"## {exam.title} - Worth {exam_weight / 2:.2f}\n")
+
+    if exam_score.status == 'x':
         print(' - Exam is excused.')
+    elif exam_score.status == 'g':
+        print(f' - Exam score override to {exam_score.score}.\n\n')
+        exam1_score = exam_score.score
+
     else:
         exam1_score = report_exam(exam,exam_weight,student,final_zones,final_scores)
 
@@ -292,6 +300,8 @@ def report_netid(netid):
     exam = session.query(Assignment).filter(Assignment.slug == 'exam-2').first()
     exam_status = session.query(Score).filter(Score.student_id == student.id,
                                               Score.assignment_id == exam.id).first().status
+
+    print(f"## {exam.title} - Worth {exam_weight / 2:.2f}\n")
 
     if exam_status == 'x':
         print(' - Exam is excused.')
@@ -383,20 +393,19 @@ def clone_and_run_report(netid,report):
 def get_report(params):
     params['netid'] = params['netid'].replace('@illinois.edu','')
 
-
     if params['github']:
         if params['netid'] == '' and params['all']:
             query = session.query(Student)
             for student in query.all():
                 clone_and_run_report(student.netid,lambda: report_netid(student.netid))
         else:
-            if params['netid'] == '':
+            if params['netid'] == '' and params['uin'] == '':
                 params['netid'] = get_netid({'return':True})
             clone_and_run_report(params['netid'], lambda: report_netid(params['netid']))
             if params['all']:
                 print("Warning: --all flag overridden by explicit mention of a netid.")
 
-    elif params['netid'] == '' and params['all']:  # Output final grades
+    elif params['uin'] == '' and params['netid'] == '' and params['all']:  # Output final grades
         with open(f"/dev/null",'w') as devnull:
             query = session.query(Student).filter(Student.status=='r')
             for student in query.all():
@@ -405,12 +414,11 @@ def get_report(params):
                     result = report_netid(student.netid)
                 print(f"{student.uin},{result}")
 
-    elif params['netid'] == '':
+    elif params['uin'] == '' and params['netid'] == '':
         report_netid(get_netid({'return': True}))
 
     else:
-        netid = params['netid']
-        report_netid(netid)
+        report_netid(params['netid'], params['uin'])
 
 # --------------------------------------------------------------------------------
 # Report Parser
@@ -420,6 +428,7 @@ report_parser = subparsers.add_parser('report', aliases=['r'], help='Report comm
 
 #    Select Netids
 report_parser.add_argument('--netid', '-n', type=str, default='', help='report for a specific netid')
+report_parser.add_argument('--uin', '-u', type=str, default='', help='report for a specific uin')
 report_parser.add_argument('--github', '-g', action='store_true', help='Report to github')
 report_parser.add_argument('--all', '-a', action='store_true', help='Report all of them')
 report_parser.set_defaults(func=get_report)

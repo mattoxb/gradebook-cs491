@@ -14,8 +14,7 @@ slug name `exam-1-direct-recursion`.
 """
 
 import json
-from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String, ForeignKey, delete
 import pandas as pd
 import csv
 
@@ -23,7 +22,7 @@ from gradebook.db import session, Base
 from gradebook.parser import subparsers
 from gradebook.assignments import Assignment
 from gradebook.categories import Category
-from gradebook.students import Student
+from gradebook.students import Student, match_coursera_to_roster
 from gradebook.scores import Score
 from gradebook.utilities import slugify, levenshtein_distance
 from gradebook.scores import create_pending_scores
@@ -55,16 +54,6 @@ class Question(Base):
     zone_id = Column(Integer, ForeignKey('zones.id'))
     path = Column(String,nullable=False)
     max_points = Column(Integer)
-
-class Coursera_UID(Base):
-    "Mapping from Coursera UID's to Students"
-    __tablename__ = 'coursera_uids'
-
-    id = Column(Integer, primary_key=True)
-    uid = Column(String,unique=True)
-    student_id = Column(Integer,ForeignKey('students.id'))
-
-    student = relationship("Student")
 
 def load_exam_zones(params):
     """Load the PrairieLearn infoAssessment.json and populate the zone information.
@@ -172,45 +161,20 @@ def load_exam_zones(params):
 # points,Question % score,Auto points,Max auto points,Manual points,Max manual points,Date,Highest submission score,Last
 # submission score,Number attempts,Duration seconds,Assigned manual grader,Last manual grader
 
-def match_coursera_to_roster(uid,name):
-    """Find a match between a Coursera name/UID and UIUC's UID.
-    Works by selecting all the names that match the first name, then
-    use edit distance to pick the most likely match."""
+def set_coursera_mapping(params):
 
-    query = session.query(Coursera_UID).filter(Coursera_UID.uid == uid)
+    student = session.query(Student).filter(Student.netid == params['netid']).first()
 
-    if query.count() == 1:
-        return query.first().student
+    statement = delete(Coursera_UID).where(Coursera_UID.student_id == student.id)
+    session.execute(statement)
 
-    # Select all the students that have the last name component and pick the one with
-    # the minimum levenshtein distance.  Don't search by first name since that is often
-    # renamed.
+    statement = delete(Coursera_UID).where(Coursera_UID.uid == params['uid'])
+    session.execute(statement)
 
-    fname = name.split()[-1]
-
-    query = session.query(Student).filter(Student.name.op('~')(fname))
-
-    best_student = None
-    best_distance = None
-
-    for student in query.all():
-        parts = student.name.split(', ')
-        swapped = parts[1] + ' ' + parts[0]
-
-        distance = levenshtein_distance(name.lower(),swapped.lower())
-        if best_distance is None or distance < best_distance:
-            best_student = student
-            best_distance = distance
-
-    if best_student is not None:
-        print(f"Best distance from {name} is {best_student.name} at {best_distance}")
-        best = Coursera_UID(uid = uid, student_id = best_student.id)
-        session.add(best)
-    else:
-        print(f"No match found for {name}")
-
+    coursera = Coursera_UID(uid = params['uid'], student_id = student.id)
+    session.add(coursera)
     session.commit()
-    return best_student
+
 
 def update_exam_scores(student,zones,zone_scores):
     "Update the zone scores and total score for the student."
@@ -281,6 +245,8 @@ def load_exam_scores(params):
             if row['Role'] != 'Student':
                 continue
 
+            # This code should be factored since it is duplicated
+
             if row['UIN'] != '':  # UIUC Entry
                 if row['UIN'] in seen:
                     student = seen[row['UIN']]
@@ -314,8 +280,8 @@ def load_exam_scores(params):
                 if zone_scores[question.zone_id] is None:
                     zone_scores[question.zone_id] = 0
 
-                zone_scores[question.zone_id] += float(row['Highest submission score']) * question.max_points
- 
+                zone_scores[question.zone_id] += float(row['Auto points']) #* question.max_points
+
         # Final entry read, update the last student.
         update_exam_scores(student,zones,zone_scores)
 
@@ -345,3 +311,10 @@ load_scores_parser.add_argument('fname', type=str,
                          help='The instance_questions.csv file.')
 load_scores_parser.set_defaults(func=load_exam_scores)
 
+set_coursera_parser = subs.add_parser('set-coursera', aliases=['sc'],
+                              help='Set coursera mapping.')
+set_coursera_parser.add_argument('netid', type=str,
+                         help='The netid of the student.')
+set_coursera_parser.add_argument('uid', type=str,
+                         help='The coursera UID.')
+set_coursera_parser.set_defaults(func=set_coursera_mapping)
