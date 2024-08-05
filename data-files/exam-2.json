@@ -1,0 +1,188 @@
+{
+    "type": "Exam",
+    "title": "Midterm 2",
+    "uuid": "29b160c6-f90b-4118-a259-9f406682253f",
+    "set": "Exam",
+    "number": "2",
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "role": "Student",
+            "startDate": "2024-07-12T00:15:00",
+            "endDate": "2024-07-23T23:59:59",
+            "password": "chestnuts",
+            "credit": 100
+        },
+        {
+            "mode": "Public",
+            "role": "Student",
+            "startDate": "2024-07-24T00:00:00",
+            "endDate": "2024-08-05T23:59:59",
+            "credit": 0
+        }
+
+    ],
+    "zones": [
+        {
+            "title": "Grammar Properties",
+            "questions": [
+                {
+                    "numberChoose": 2,
+                    "points": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "grammars/regular/rl-grammar-03"
+                        },
+                        {
+                            "id": "grammars/ambiguity/ambiguous-03"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "FIRST and FOLLOW Sets",
+            "questions": [
+                {
+                    "numberChoose": 2,
+                    "points": [
+                        5,
+                        2
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "grammars/first-follow/select-02"
+                        },
+                        {
+                            "id": "grammars/first-follow/select-03"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "LL Conversion",
+            "questions": [
+                {
+                    "numberChoose": 2,
+                    "points": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "grammars/ll-grammars/ll-conversion-q3"
+                        },
+                        {
+                            "id": "grammars/ll-grammars/ll-to-haskell-q3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "LR Parsing",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        7,
+                        7,
+                        7,
+                        7,
+                        7,
+                        7,
+                        7,
+                        7,
+                        7,
+                        7
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "grammars/lr-grammars/lr-item-set-q3"
+                        }
+                    ]
+                },
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        3,
+                        3,
+                        2,
+                        1
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "grammars/lr-grammars/select-shift-reduce-q3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Monotype Proof",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "type-proofs/mono/xplusgy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unification Step",
+            "questions": [
+                {
+                    "numberChoose": 2,
+                    "points": [
+                        5,
+                        2
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "unification-mc-04gk"
+                        },
+                        {
+                            "id": "unification-mc-05gk"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "text": "Midterm 2 -- Grammars, Parsing, "
+}

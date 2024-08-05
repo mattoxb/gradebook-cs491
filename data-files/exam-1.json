@@ -1,0 +1,297 @@
+{
+    "type": "Exam",
+    "uuid": "3cdc070a-d850-493c-be19-572e7b9f1a3e",
+    "title": "Midterm 1",
+    "set": "Exam",
+    "number": "1",
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "role": "Student",
+            "startDate": "2024-06-06T00:00:00",
+            "endDate": "2024-08-01T23:59:59",
+            "password": "KDpW{D3&Sg.=eBP4",
+            "credit": 100
+        },
+        {
+            "mode": "Public",
+            "role": "Student",
+            "startDate": "2024-07-24T00:00:00",
+            "endDate": "2024-08-05T23:59:59",
+            "credit": 0
+        }
+    ],
+    "zones": [
+        {
+            "title": "Direct Recursion",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "code-haskell/list-recursion/sumList"
+                        },
+                        {
+                            "id": "code-haskell/list-recursion/incList"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tail Recursion",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "code-haskell/tail-recursion/power"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Using HOFs",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "code-haskell/hof-using/takeEvens"
+                        },
+                        {
+                            "id": "code-haskell/hof-using/palindrome"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Algebraic Data Types",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "code-haskell/adts/listifyTurtle_isBalanced"
+                        },
+                        {
+                            "id": "code-haskell/adts/tuple2pair_prodTuple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lambda Calculus Reductions",
+            "questions": [
+                {
+                    "numberChoose": 2,
+                    "points": 5,
+                    "alternatives": [
+                        {
+                            "id": "mc-lambda-reduction-02"
+                        },
+                        {
+                            "id": "mc-lambda-reduction-03"
+                        },
+                        {
+                            "id": "mc-lambda-reduction-04"
+                        },
+                        {
+                            "id": "mc-lambda-reduction-05"
+                        },
+                        {
+                            "id": "mc-lambda-reduction-06"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Interpreters",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "code-haskell/interpreters/AppExp_manyArgs"
+                        },
+                        {
+                            "id": "code-haskell/interpreters/CStyleIfExpr"
+                        },
+                        {
+                            "id": "code-haskell/interpreters/WhereExp"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Big Step Semantics",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "big-step-semantics/proofs/ifplus1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Continuation Passing Style",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        5,
+                        4
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "continuations/mc/tail-recursion-similar-02"
+                        }
+                    ]
+                },
+                {
+                    "numberChoose": 1,
+                    "points": [
+                        5,
+                        4
+                    ],
+                    "alternatives": [
+                        {
+                            "id": "continuations/mc/tail-recursion-different-02"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "text": "Midterm 1 -- Recursion, ADTs, Lambda Calculus, Interpreters, Continuations"
+}

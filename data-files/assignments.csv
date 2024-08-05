@@ -1,0 +1,23 @@
+order,category,slug,max_points,title
+1,quizzes,quiz-1,1,Quiz 1
+2,quizzes,quiz-2,1,Quiz 2
+3,quizzes,quiz-3,1,Quiz 3
+4,quizzes,quiz-4,1,Quiz 4
+5,quizzes,quiz-5,1,Quiz 5
+6,quizzes,quiz-6,1,Quiz 6
+7,quizzes,quiz-7,1,Quiz 7
+8,quizzes,quiz-8,1,Quiz 8
+9,quizzes,quiz-9,1,Quiz 9
+10,quizzes,quiz-10,1,Quiz 10
+11,quizzes,quiz-11,1,Quiz 11
+12,quizzes,quiz-12,1,Quiz 12
+21,mps,mp-1,27,MP 1
+22,mps,mp-2,100,MP 2
+23,mps,mp-3,100,MP 3
+24,mps,mp-4,1,MP 4
+25,mps,mp-5,1,MP 5
+26,mps,mp-6,1,MP 6
+31,exams,exam-1,1,Midterm 1
+32,exams,exam-2,1,Midterm 2
+33,exams,final,1,Final
+41,project,project,100,Project
