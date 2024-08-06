@@ -1,0 +1,3 @@
+for i in score-files/CS_421_Su24-DSO_E2_instance_questions.csv score-files/CS_421_Su24-PGU_E2_instance_questions.csv ; do ./gb exam ls exam-2 $i; done
+for i in score-files/CS_421_Su23-Makeup_E1_instance_questions.csv score-files/CS_421_Su24-DSO_E1_instance_questions.csv score-files/CS_421_Su24-PGU_E1_instance_questions.csv ; do ./gb exam ls exam-1 $i ; done
+for i in score-files/CS_421_Su24-DSO_EF_instance_questions.csv score-files/CS_421_Su24-PGU_EF_instance_questions.csv score-files/CS_421_Su24-DSO_EF2_instance_questions.csv ; do ./gb exam ls final $i ; done

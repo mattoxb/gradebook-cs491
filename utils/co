@@ -1,0 +1,3 @@
+echo $(./gb st n),100 >> score-files/projects.csv
+cat score-files/projects.csv
+

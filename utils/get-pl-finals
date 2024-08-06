@@ -1,0 +1,37 @@
+curl 'https://us.prairielearn.com/pl/course_instance/154129/instructor/assessment/2421293/downloads/CS_421_Su24-DSO_EF_instance_questions.csv' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'cookie: prairielearn_session=m__ftDpsMgRT8h-aD0c5gq0y0Ho7bwvr.k0%2Bd7flQKybyFq7m6x8Gt9srOBPqlPGhbz5CokXlnTo; pl2_session=m__ftDpsMgRT8h-aD0c5gq0y0Ho7bwvr.k0%2Bd7flQKybyFq7m6x8Gt9srOBPqlPGhbz5CokXlnTo; AWSALB=mykU+HhefUiBc05HX0EnH4DsXR+YkFqukhWe3mMfrfGhtIemNWy6oRPkIvbEv0OiW8k4C1T4WJqlnzh1tMkywquYL50c7pNyBDFqeEYh4sBRXF0Pf2NFm2wq6RFke72O7fIKVd9O0kSKRnHhU0NUiKUIqb+Nf6xjPL2pFMWvRZ4R+lxUMoL8eLdUMujTKw==; AWSALBCORS=mykU+HhefUiBc05HX0EnH4DsXR+YkFqukhWe3mMfrfGhtIemNWy6oRPkIvbEv0OiW8k4C1T4WJqlnzh1tMkywquYL50c7pNyBDFqeEYh4sBRXF0Pf2NFm2wq6RFke72O7fIKVd9O0kSKRnHhU0NUiKUIqb+Nf6xjPL2pFMWvRZ4R+lxUMoL8eLdUMujTKw==' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://us.prairielearn.com/pl/course_instance/154129/instructor/assessment/2421293/downloads' \
+  -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-gpc: 1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'> score-files/CS_421_Su24-DSO_EF_instance_questions.csv
+
+curl 'https://us.prairielearn.com/pl/course_instance/155416/instructor/assessment/2433767/downloads/CS_421_Su24-PGU_EF_instance_questions.csv' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'cookie: prairielearn_session=m__ftDpsMgRT8h-aD0c5gq0y0Ho7bwvr.k0%2Bd7flQKybyFq7m6x8Gt9srOBPqlPGhbz5CokXlnTo; pl2_session=m__ftDpsMgRT8h-aD0c5gq0y0Ho7bwvr.k0%2Bd7flQKybyFq7m6x8Gt9srOBPqlPGhbz5CokXlnTo; AWSALB=3Z+Rf8BNB0vfi8tebcNxb5uCX7xxX18JqJbjdCVC4X9M66toJoIxL/LlSZZ18DEfp+bCfn3unPnib4KqzVSnK244olPMYE05ov2DPAg0nSANYP6+lpl7IWUvfwy74vOWw1RTRqR08teCtyNpX9fyiWfMdeSvGStOiJnxutlkRZZ1L9eBevJd7AKbJ7pe5A==; AWSALBCORS=3Z+Rf8BNB0vfi8tebcNxb5uCX7xxX18JqJbjdCVC4X9M66toJoIxL/LlSZZ18DEfp+bCfn3unPnib4KqzVSnK244olPMYE05ov2DPAg0nSANYP6+lpl7IWUvfwy74vOWw1RTRqR08teCtyNpX9fyiWfMdeSvGStOiJnxutlkRZZ1L9eBevJd7AKbJ7pe5A==' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://us.prairielearn.com/pl/course_instance/155416/instructor/assessment/2433767/downloads' \
+  -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-gpc: 1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' > score-files/CS_421_Su24-PGU_EF_instance_questions.csv
