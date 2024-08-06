@@ -1,3 +1,0 @@
-for i in $(seq 1 6); do
-    gb sc ls mp-$i score-files/CS_421_Su24-DSO_MP${i}_all_submissions.csv
-done
