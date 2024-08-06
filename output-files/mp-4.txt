@@ -1,0 +1,2009 @@
+On time submission 2024-07-07T15:38:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:54:34-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T16:46:06-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T17:51:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:38:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:38:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:41:26-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:20:52-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mathew, Ethan Thomas 100.0
+On time submission 2024-07-06T19:53:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:55:15-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T20:01:11-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T12:24:35-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T12:31:25-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T12:37:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T12:38:58-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T12:45:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T12:54:37-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T12:55:29-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:05:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:06:37-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:11:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:12:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T13:14:57-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:16:41-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:25:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:27:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:27:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:28:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:28:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:33:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:37:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:39:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:51:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:53:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:53:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:55:51-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T13:57:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:59:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:04:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:04:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:06:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:06:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:28:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:29:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:51:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:53:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:54:57-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:05:05-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:05:59-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kataria, Agrim 100.0
+On time submission 2024-06-25T13:50:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T13:52:50-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-25T14:16:43-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-25T14:57:56-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-25T15:16:34-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-06-25T15:49:00-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-25T15:51:53-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-26T12:51:22-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-26T13:15:05-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-26T13:21:16-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-26T13:23:10-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-26T15:16:07-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-30T11:24:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-01T10:35:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T10:39:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:29:37-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Gahalaut, Achintya 100.0
+On time submission 2024-07-05T10:02:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T18:14:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:05:15-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T19:07:38-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T19:39:00-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lee, Gabriel J 100.0
+On time submission 2024-07-05T15:20:45-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Wang, Xingyao 90.0
+On time submission 2024-07-07T18:02:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:07:16-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-07T18:12:11-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T18:13:42-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T18:16:48-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T18:25:35-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T18:28:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:28:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:29:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:29:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:41:19-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T18:52:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:53:19-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T18:59:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:01:32-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T19:05:16-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T19:07:25-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T19:11:33-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:12:56-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:13:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:15:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:16:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:19:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:22:38-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:28:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:29:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:48:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:51:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:58:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:00:27-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-13T15:01:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-13T15:26:29-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-13T15:27:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-13T15:28:49-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-13T15:33:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-13T15:35:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Nevius, Branden 60.0
+Late submission 2024-07-14T13:23:58-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-14T13:36:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Park, Jongwon 48.0
+On time submission 2024-07-07T20:25:04-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:12:22-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Derocher, Marielle Claire 90.0
+On time submission 2024-07-03T14:35:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mooney, Kevin Christopher 100.0
+On time submission 2024-06-30T17:29:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Tokuda, Nivaldo Humberto Oliveira 80.0
+On time submission 2024-07-07T16:19:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:22:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:24:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:28:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:29:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:17:58-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:23:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:26:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:39:19-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:41:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:47:25-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Ilic, Lazar 80.0
+On time submission 2024-07-03T03:31:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Latif, Abdul 100.0
+On time submission 2024-06-19T11:37:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-06-19T11:37:39-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhu, Edward 100.0
+On time submission 2024-07-04T19:04:40-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lizarraga, Jacob Daniel 100.0
+On time submission 2024-06-25T15:16:21-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-25T16:14:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:15:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:16:17-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-25T16:25:16-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-25T16:34:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:35:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:41:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:45:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:51:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:53:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:55:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:56:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T16:57:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-27T18:33:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-27T18:35:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-27T18:39:21-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-27T18:41:59-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-27T18:42:49-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-27T18:47:24-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T15:11:05-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T15:19:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T15:23:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T15:32:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T17:23:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T17:32:51-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T17:50:37-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:14:28-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:38:02-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:41:52-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:42:44-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:46:13-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:46:41-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T18:48:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T18:49:17-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T15:35:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T15:42:01-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T15:50:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T15:52:43-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T15:57:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T15:59:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T16:04:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T16:12:59-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:13:43-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:15:48-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:16:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T17:59:13-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:02:43-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:09:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:11:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:12:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:30:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:30:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:31:20-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:31:46-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:32:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:34:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:34:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:37:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T18:37:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:49:06-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T16:50:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T16:52:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T16:54:11-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:55:05-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:07:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:09:10-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:09:41-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:20:21-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:31:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:31:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:41:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T17:42:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:43:25-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:43:58-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T17:45:49-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T18:41:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T18:44:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:34:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:43:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:46:05-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T20:53:23-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:11:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:15:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:16:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:16:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:17:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:18:24-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:19:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:20:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:22:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:23:18-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T23:23:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:29:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:29:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:31:00-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:36:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:36:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:43:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:44:54-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:47:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:51:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:05:13-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:22:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:24:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:32:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:34:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:34:37-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:42:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:43:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:51:58-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:54:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:59:06-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Bai, Justin 100.0
+Late submission 2024-07-08T23:43:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Giridharan, Arun Hari 48.0
+On time submission 2024-06-01T22:11:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zou, Jeff 100.0
+On time submission 2024-07-06T01:10:50-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Jain, Labdhi 100.0
+On time submission 2024-07-04T02:09:20-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-04T02:12:31-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-04T02:20:59-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-04T02:21:18-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-04T02:23:41-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-04T02:38:32-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-04T02:47:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-05T01:02:56-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T18:10:01-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T18:41:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T19:26:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T22:16:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:18:39-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Gahalaut, Ananya 100.0
+On time submission 2024-07-07T22:54:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:36:04-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Higa, Ryley K 100.0
+On time submission 2024-07-05T16:20:54-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T16:25:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T16:55:11-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Gerstein, Samuel 100.0
+On time submission 2024-07-06T14:35:05-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T14:54:18-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Milavec, Luke 100.0
+On time submission 2024-07-07T15:26:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Seskiewicz, Adam 60.0
+On time submission 2024-06-18T02:32:46-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Madhan, Sam 100.0
+On time submission 2024-06-30T00:04:00-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Sohn, Youngbo Suh 100.0
+On time submission 2024-07-07T18:40:05-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Guan, Edmon 100.0
+On time submission 2024-07-07T13:29:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:31:48-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:56:36-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Patel, Armaan Chetan 100.0
+On time submission 2024-06-29T19:04:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Vijayakumar, Vikram 100.0
+On time submission 2024-07-07T23:50:21-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:59:14-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Berry, Ryan Patrick 100.0
+On time submission 2024-07-07T15:57:50-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Tam, Christian Michael 100.0
+On time submission 2024-06-30T23:52:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:45:57-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T16:47:28-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Manchella, Kushaal Bharadwaj 100.0
+On time submission 2024-07-05T23:02:24-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-05T23:11:53-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-05T23:12:23-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-05T23:12:49-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-05T23:16:47-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-05T23:19:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:20:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:20:41-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T23:26:28-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-05T23:27:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:29:24-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-05T23:36:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:38:05-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-05T23:51:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:51:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:27:43-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:28:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:29:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:29:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:31:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:33:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:34:45-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T17:37:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:39:53-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:40:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:41:16-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Srinivasan, Adi 100.0
+On time submission 2024-06-17T05:00:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-17T05:01:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-18T06:32:19-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhan, Xianyang 100.0
+On time submission 2024-07-04T23:55:22-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T00:19:28-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-06T00:19:50-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Chen, Kevin 100.0
+On time submission 2024-06-08T23:23:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-08T23:32:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-08T23:36:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-08T23:43:02-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-08T23:48:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T02:06:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T02:06:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:20:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:23:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:37:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:54:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:01:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:05:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:06:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:07:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T07:30:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T07:32:20-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T07:38:24-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T07:45:00-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T07:49:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T07:54:35-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T09:38:10-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T09:45:05-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T09:48:44-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T09:52:34-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T09:54:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T09:56:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T09:57:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T09:59:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T10:00:43-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T21:44:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T21:51:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T21:55:35-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T21:58:51-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T22:04:17-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T22:10:02-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T22:13:00-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-08T22:21:33-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-09T05:36:08-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+Late submission 2024-07-09T05:40:57-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+Amuneke, Elias Ikechukwu 60.0
+On time submission 2024-07-01T21:19:12-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Xu, Daniel Haozhe 100.0
+On time submission 2024-07-07T13:03:26-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Colmena, Carlos 90.0
+On time submission 2024-07-07T21:58:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:03:10-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Min, Max 100.0
+On time submission 2024-07-07T23:16:34-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Savalia, Yash Shailesh 100.0
+On time submission 2024-06-25T12:01:10-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-26T07:21:17-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-26T07:41:55-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-26T08:05:23-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-06-26T08:08:54-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-26T12:11:03-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-01T12:42:31-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-01T15:04:39-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T15:19:25-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T10:49:07-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mukhopadhyay, Sarn 100.0
+On time submission 2024-07-07T21:38:31-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Setlur, Rahul Srihari 100.0
+On time submission 2024-07-04T14:30:23-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T17:46:41-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Shi, Melissa 100.0
+On time submission 2024-07-06T17:21:08-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Hennig, Jacob Kyran Meng Chung 100.0
+On time submission 2024-07-05T13:56:31-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-05T14:14:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T14:15:52-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-05T14:22:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T14:23:01-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T14:42:25-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-05T16:52:43-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T16:54:57-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-05T17:11:07-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T19:26:15-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T23:01:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:03:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:06:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:08:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T23:11:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T17:31:37-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T17:40:35-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T18:01:52-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T18:02:27-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T18:13:23-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T19:40:07-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T20:08:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T20:20:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T23:55:05-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:51:08-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Khwaja, Fiza Nuwera 100.0
+On time submission 2024-07-07T18:28:41-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T18:34:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:34:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:36:20-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T18:38:37-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T18:41:51-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T18:42:28-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-07T18:43:46-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T18:47:39-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T18:49:26-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:03:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:05:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:07:27-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:09:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:15:21-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:20:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:24:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:26:16-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:27:51-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:29:02-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:30:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:31:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:35:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:36:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:39:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:42:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:43:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:44:12-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:45:35-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:48:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Gadde, Akhil 60.0
+On time submission 2024-06-02T02:56:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-02T05:29:15-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Ito Madeira De Ley, Luine 100.0
+On time submission 2024-06-19T22:29:59-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-19T22:58:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-19T23:05:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-19T23:06:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-19T23:16:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-19T23:22:52-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-19T23:24:31-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Li, Wenching 100.0
+On time submission 2024-07-07T22:57:36-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T22:58:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T23:01:31-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T23:34:12-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T23:35:03-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Varma, Mohul 40.0
+On time submission 2024-07-06T15:49:33-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T20:52:24-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T13:56:40-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:26:37-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:29:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:36:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:39:02-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:44:08-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:57:44-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Flaherty, Jimmy 100.0
+On time submission 2024-06-24T00:02:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T00:05:14-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-06-24T00:08:13-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-24T00:10:40-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-24T00:15:07-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T00:23:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T00:26:30-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T01:01:11-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T01:19:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:24:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:27:05-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T01:27:54-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T01:34:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:39:23-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:45:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:48:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:54:12-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T01:59:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T02:01:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T02:02:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T12:34:59-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T12:37:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T12:42:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T14:11:56-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T14:29:07-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T20:43:41-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Pullabhotla, Shreya 60.0
+On time submission 2024-07-04T11:43:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Agarwal, Ehit Dinesh 100.0
+Late submission 2024-07-10T14:25:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-10T14:27:56-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+Late submission 2024-07-10T14:30:17-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+Late submission 2024-07-10T14:39:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Yatzkan, Andrew 48.0
+On time submission 2024-07-05T23:45:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T01:24:42-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T01:33:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T02:04:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T02:07:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T03:18:12-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Wu, Shane 100.0
+On time submission 2024-07-04T16:24:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T16:25:00-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-04T16:28:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T16:28:36-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-04T16:30:36-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-04T16:32:42-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-04T16:36:34-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-04T16:43:41-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T16:56:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T16:58:00-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T17:06:28-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T17:10:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T17:13:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:14:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T17:19:22-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:24:41-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:35:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:35:56-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:37:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:39:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:40:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:41:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:43:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:44:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T17:47:58-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:51:18-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:53:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T17:57:51-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T18:00:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T18:34:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T18:35:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T18:39:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T18:41:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T18:42:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T18:54:19-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-04T19:49:54-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-04T19:50:26-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-04T19:52:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-04T19:53:26-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-04T21:43:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T21:44:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T21:54:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T22:04:20-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T22:06:24-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T22:11:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T22:13:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T22:14:59-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T22:16:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-04T22:17:11-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-05T13:44:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T13:46:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T13:53:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T13:55:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:05:57-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:07:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:08:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:13:08-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:17:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:18:54-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:20:36-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:32:23-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:33:57-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-05T14:35:10-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T14:37:36-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Su, Xiaoqian 100.0
+On time submission 2024-06-01T10:58:52-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-01T11:42:45-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-01T11:50:51-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-01T11:56:21-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-01T12:56:20-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-01T12:59:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-01T15:04:15-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-06-17T21:12:16-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kaplan, Malcolm 100.0
+On time submission 2024-07-07T11:55:56-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T12:00:02-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T15:08:13-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Huebner, George 100.0
+On time submission 2024-07-07T23:59:18-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Late submission 2024-07-14T23:26:08-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Yadav, Aryan Kumar 48.0
+On time submission 2024-07-07T20:23:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:24:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:27:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:28:54-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T20:31:43-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T20:34:27-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T20:38:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:38:56-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-07T20:40:45-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T20:47:31-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T21:28:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:29:23-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T21:37:01-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:47:05-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T21:48:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:49:00-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T21:51:26-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T22:10:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:12:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:15:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:17:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:17:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:18:27-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:20:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kakuturu, Vaasu 100.0
+On time submission 2024-06-20T20:31:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-20T20:34:12-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-06-20T20:38:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-21T02:02:09-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-21T02:04:06-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Das, Himangshu 100.0
+On time submission 2024-07-07T08:50:25-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T09:16:12-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:13:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T22:43:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Granados Mogollon, Layne Otilia 70.0
+On time submission 2024-07-07T13:35:11-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kanaujia, Ahaan 100.0
+On time submission 2024-06-21T16:50:15-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T14:00:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T14:06:03-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T14:17:14-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T14:23:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T14:27:40-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T16:01:50-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T16:05:13-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T16:11:26-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T16:16:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:30:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:35:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:45:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T16:55:45-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-06T17:02:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T18:55:46-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T19:01:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:23:42-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Patel, Avi 100.0
+On time submission 2024-07-06T11:33:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T11:34:23-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-06T11:44:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T11:46:19-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-06T11:50:17-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T11:58:01-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T12:01:17-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T12:05:26-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:07:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:13:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:19:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:22:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:25:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:29:14-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T12:33:19-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T08:41:17-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T08:43:36-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T08:57:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T09:10:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:11:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:15:54-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:17:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:20:16-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:21:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T09:36:27-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T09:45:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T10:17:08-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T10:18:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T10:33:51-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T10:44:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T10:48:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:08:56-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:21:57-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:24:00-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:28:43-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:37:04-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:42:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:03:24-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Michal, Justin 100.0
+On time submission 2024-07-05T10:05:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T10:06:59-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-05T10:16:35-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-05T10:38:31-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T10:46:09-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-05T10:51:06-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-05T10:52:55-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-05T10:53:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T16:30:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T16:52:50-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T17:22:59-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-12T11:23:16-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Lin, Fay 90.0
+On time submission 2024-06-27T06:14:11-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Timmerman, Evan Matthew 100.0
+On time submission 2024-06-22T14:15:44-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-22T14:26:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:28:00-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:28:43-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:29:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:33:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:34:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:37:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:38:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:39:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:40:06-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-22T14:48:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:50:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:52:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:53:26-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-06-22T14:54:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-22T14:55:22-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-06-22T14:56:41-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-06-22T14:58:08-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-23T14:35:48-05 of mps-haskell/mp4-forth-compiler: 0.75 points.
+On time submission 2024-06-23T14:38:17-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Ho, Weng Shian 100.0
+On time submission 2024-07-07T22:09:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:15:26-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:34:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Mehta, Meera 80.0
+Late submission 2024-07-11T03:08:07-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Kim, Min Jae 48.0
+On time submission 2024-07-07T08:43:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T08:44:18-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-07T12:58:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T12:58:46-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-07T13:36:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T13:55:06-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:01:44-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-07T14:07:05-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T14:25:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:42:24-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:43:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T14:44:13-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:57:32-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:25:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:28:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:05:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:07:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:11:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:13:16-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhai, Xinming 100.0
+On time submission 2024-06-23T17:05:20-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-23T17:15:48-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-23T17:21:02-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-23T17:24:12-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-23T17:27:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-23T17:27:58-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-23T17:29:21-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-23T17:31:09-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-23T17:35:25-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:43:40-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:46:34-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:47:13-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:48:45-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:49:35-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:55:10-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T18:11:10-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T18:14:09-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-06-23T18:16:13-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-06-23T18:32:52-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-23T18:34:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-23T18:50:21-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-23T18:50:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-23T18:51:02-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-23T18:51:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-23T19:06:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-06-23T19:07:55-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Prasad, Anirudh 100.0
+On time submission 2024-07-06T00:49:30-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+Gudipaty, Rohan Venkat 5.0
+Late submission 2024-07-13T20:42:05-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+Late submission 2024-07-13T21:00:47-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+Late submission 2024-07-14T01:09:09-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-14T01:11:58-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-14T01:19:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T01:35:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T02:12:28-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T02:29:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T02:41:15-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T02:43:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T02:44:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T02:45:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T13:26:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T14:38:53-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-14T14:57:32-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-14T15:25:33-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-14T21:24:13-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Late submission 2024-07-14T23:59:33-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Ancheril, Arnold Robert 56.0
+On time submission 2024-06-25T15:08:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Iribarne, Myles Alejandro 100.0
+On time submission 2024-06-25T17:05:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T17:10:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-26T11:53:04-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Guo, Edward 100.0
+On time submission 2024-07-06T20:36:11-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Opperman, Christian 100.0
+On time submission 2024-06-23T18:51:09-05 of mps-haskell/mp4-forth-compiler: 1 points.
+GU, Zichen 100.0
+On time submission 2024-07-02T21:37:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T23:39:54-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Rowe, Alex 100.0
+On time submission 2024-06-29T05:51:00-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-29T05:57:52-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-29T06:44:43-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Saligram, Dhruv 100.0
+On time submission 2024-06-23T17:10:16-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-23T17:11:59-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Thota, Harshita 100.0
+On time submission 2024-06-16T19:09:53-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-05T17:39:13-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-05T17:41:40-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-05T17:42:10-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T17:44:28-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T17:45:45-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-05T17:47:15-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-05T17:50:27-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T17:55:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T17:57:27-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T17:59:11-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T18:08:24-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-05T18:18:29-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T18:19:59-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T18:20:58-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T18:28:59-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T18:30:54-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T18:58:28-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-07-06T19:00:40-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-07-06T19:01:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:03:36-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-07-06T19:07:25-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:09:34-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-07-06T19:10:13-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:13:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:14:05-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:31:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:32:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:35:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:36:17-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:38:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:41:55-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:45:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:46:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:48:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:48:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:49:46-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T19:50:23-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:56:29-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T19:58:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:09:27-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T20:12:00-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:12:43-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T20:14:46-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T20:16:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:17:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T20:54:18-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T20:55:56-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:01:28-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:02:33-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:03:22-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:04:43-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:06:00-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T21:06:51-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T00:55:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:45:48-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:47:17-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:49:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:49:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:50:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:51:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:52:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:53:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:54:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:57:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:59:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:00:07-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:00:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:01:35-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:02:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:03:02-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:04:18-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:05:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:05:45-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:06:05-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:07:07-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:08:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:09:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:10:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:11:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:13:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:14:32-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:15:27-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:16:28-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:18:32-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:24:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:25:21-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Bindu, Rohan 100.0
+On time submission 2024-06-30T11:05:28-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-30T12:13:31-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-30T12:17:40-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-30T12:24:59-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T12:37:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T12:44:03-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T12:44:41-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-30T12:48:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T12:52:37-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-06T14:41:24-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Bhattacharjee, Sidd 100.0
+On time submission 2024-07-07T19:55:23-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Fu, Alice Jingwen 90.0
+On time submission 2024-07-01T10:53:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T10:54:18-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-06T13:25:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T13:28:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T13:29:58-05 of mps-haskell/mp4-forth-compiler: 0.75 points.
+On time submission 2024-07-06T13:34:01-05 of mps-haskell/mp4-forth-compiler: 0.75 points.
+On time submission 2024-07-06T13:38:39-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T14:34:31-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Nguyen, Dan Hien 100.0
+On time submission 2024-06-21T12:14:52-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-22T10:34:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-22T11:14:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-23T10:07:15-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Arbour, Spencer Madhav 100.0
+On time submission 2024-07-07T00:23:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:26:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:29:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:31:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:35:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:36:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:39:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:43:29-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:47:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:50:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T00:53:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:02:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:15:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:21:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:23:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:26:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:29:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:32:28-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T01:35:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T01:38:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T01:43:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:42:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:45:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:49:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:51:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:53:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:54:43-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:58:29-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:01:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:02:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:04:27-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:07:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:08:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:08:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:19:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:24:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Hassan, Feisal 60.0
+On time submission 2024-06-17T11:46:47-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Huang, Xiaoci 100.0
+On time submission 2024-07-07T23:54:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Cushing, Tyler 100.0
+Late submission 2024-07-08T18:12:07-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+Late submission 2024-07-08T18:15:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T18:21:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T20:51:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T20:52:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T20:53:26-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T20:54:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T20:56:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T21:02:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T21:08:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T21:27:14-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T21:45:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T21:55:19-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:05:50-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:08:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:09:52-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:11:28-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:15:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:18:23-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:22:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:33:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-08T22:36:00-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T22:39:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T22:39:53-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:41:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:42:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:43:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T22:44:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:46:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:47:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:49:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:51:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T22:51:57-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T22:53:13-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Patel, Avi 80.0
+On time submission 2024-06-17T14:19:19-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Skiles, Caleb Eugene 100.0
+On time submission 2024-07-07T23:00:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Goswami, Anwesa 100.0
+On time submission 2024-06-24T00:34:27-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-24T00:40:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T00:41:55-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-24T00:50:32-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-24T00:52:03-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-24T00:54:57-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-24T00:57:11-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T01:03:06-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T01:04:11-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T19:34:09-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T19:49:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T19:50:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T19:50:28-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T19:53:06-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-24T19:53:48-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-25T17:03:32-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-25T17:09:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-25T17:14:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T17:16:15-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-25T17:23:39-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-26T16:38:57-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-26T16:45:00-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-26T16:48:56-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Prasad, Utkarsh 100.0
+On time submission 2024-06-30T18:48:06-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:48:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:53:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:54:43-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:56:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:58:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T18:59:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:00:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:04:08-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-30T19:08:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:14:32-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-30T19:17:34-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:20:53-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:21:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:21:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:22:46-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:26:33-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:27:26-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:28:21-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:41:09-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:49:11-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:49:44-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:52:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:53:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:53:52-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T19:54:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T19:55:04-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-01T01:56:35-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T02:00:20-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T02:02:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T02:02:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T02:03:41-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T02:04:22-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T02:06:22-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-01T02:09:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T02:10:03-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-01T02:11:25-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-01T02:13:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T02:14:15-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T02:45:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-01T02:46:33-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-02T01:52:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T01:53:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T01:55:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T00:50:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:53:04-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Sood, Sushant 100.0
+On time submission 2024-06-30T00:33:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T00:34:05-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Liu, Juntian 100.0
+On time submission 2024-07-02T06:42:10-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-02T06:42:28-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kennedy, Matthew 100.0
+On time submission 2024-06-20T04:18:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Fang, Richard Ricky 100.0
+Late submission 2024-07-14T23:44:36-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+Late submission 2024-07-14T23:49:32-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+McSaint, Kezzuo Lie 8.0
+On time submission 2024-07-06T13:41:47-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T15:05:49-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:10:21-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:15:17-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T15:17:26-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Ho, Emily 90.0
+On time submission 2024-06-11T17:39:18-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-06-11T17:40:21-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Asher, Drshika 100.0
+On time submission 2024-07-07T13:18:50-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Meghani, Pankaj Harish 100.0
+On time submission 2024-07-01T22:28:40-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T22:46:37-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-01T23:09:15-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-01T23:11:10-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-01T23:18:24-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-02T16:39:36-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-02T16:49:47-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-02T16:51:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T00:28:12-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Ganugapati, Anvita Srikari 80.0
+On time submission 2024-06-24T10:24:54-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-24T10:33:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T10:37:28-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-24T10:40:57-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-24T10:43:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T10:51:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T10:53:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:18:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:20:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:27:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:34:05-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:40:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:46:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:55:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T13:57:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T14:00:56-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T14:06:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:07:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:08:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:10:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:23:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:25:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T14:31:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T14:43:29-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T14:44:21-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T14:48:55-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T14:53:23-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T14:57:17-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:00:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:04:31-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:05:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:09:45-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:20:26-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:28:01-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:29:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T15:30:57-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T15:33:12-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:35:49-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:36:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T15:37:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T15:41:18-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:46:36-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T15:50:08-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:18:55-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:19:28-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:21:45-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:34:39-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:38:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:46:26-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:52:27-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T16:59:22-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:00:47-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:01:52-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:02:42-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:04:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T17:06:31-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:07:52-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:09:14-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:09:55-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:12:44-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:16:36-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:17:47-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:21:07-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:22:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T17:29:00-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T17:32:39-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:34:20-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-24T17:37:12-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T15:47:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-28T15:55:04-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T22:46:01-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T22:46:45-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T22:51:30-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T22:54:51-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:56:42-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:00:23-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:06:02-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:06:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T23:08:02-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:12:18-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:14:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:20:18-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:22:20-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:30:21-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:30:56-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:34:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:36:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T23:37:07-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T23:49:48-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:55:57-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:05:19-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:07:45-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:09:46-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:13:15-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:17:53-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:32:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T00:33:38-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:34:32-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-08T00:37:35-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T00:39:13-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Late submission 2024-07-08T00:41:05-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Late submission 2024-07-14T09:37:10-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lei, Haoen 90.0
+On time submission 2024-06-16T14:49:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-16T16:58:26-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-17T10:55:42-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Wang, Bwohan 100.0
+On time submission 2024-07-07T23:38:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:50:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:55:08-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:56:07-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Park, Supia 60.0
+On time submission 2024-06-18T19:07:46-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-18T19:27:56-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-18T19:30:30-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-18T19:40:53-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-06-18T19:49:51-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-18T20:10:03-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-18T20:13:28-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-18T20:19:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-18T21:01:56-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Rosen, Ben 100.0
+On time submission 2024-07-07T22:41:35-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Siddiqi, Ali I 100.0
+On time submission 2024-06-26T07:37:37-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Yan, linda 100.0
+On time submission 2024-07-01T17:57:26-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-01T18:02:36-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-01T18:07:28-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-01T18:12:51-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-01T18:16:49-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-01T18:18:49-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-01T18:32:26-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T18:43:08-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T18:55:25-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T19:03:02-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T19:11:25-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T19:16:03-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T19:23:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T19:20:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T19:22:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T19:28:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T19:42:47-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T19:44:17-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T19:49:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:49:56-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:51:15-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T16:55:01-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Yalavarthi, Sahan Sai 100.0
+On time submission 2024-06-26T20:23:15-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-26T20:25:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T05:23:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-28T14:34:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-28T14:34:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-28T18:14:09-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-06-28T18:37:18-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-06-28T18:42:31-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Jennings, Jason 100.0
+On time submission 2024-07-03T00:00:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:02:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:02:40-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-03T00:06:27-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-03T00:07:37-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T00:10:45-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T00:16:33-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-03T00:21:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:21:36-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-03T00:22:57-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-03T00:24:21-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-03T01:01:06-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-03T01:02:07-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-12T14:29:03-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Late submission 2024-07-12T14:40:02-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Late submission 2024-07-12T15:17:34-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Late submission 2024-07-12T15:18:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Cooper, Simon 80.0
+On time submission 2024-07-06T20:01:02-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-06T20:05:36-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-06T20:06:28-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-06T20:07:40-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T20:11:13-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T20:14:22-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T10:26:43-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T10:36:39-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T10:38:56-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T10:41:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T10:42:09-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T11:06:43-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:07:16-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:22:48-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:24:29-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:26:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:31:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:35:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:40:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:15:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:19:23-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:23:55-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:32:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:39:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:43:55-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:03:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Wang, Lufei 60.0
+On time submission 2024-06-25T21:22:30-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-28T15:44:12-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-28T17:49:30-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lu, Shang 100.0
+On time submission 2024-07-07T12:06:30-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T12:08:25-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T12:10:12-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T12:17:35-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T12:22:15-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T12:27:08-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T12:34:26-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T12:47:34-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T14:04:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T14:12:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:02:01-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T16:14:43-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:35:09-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T16:44:22-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T16:54:53-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Sarkar, Soham 90.0
+On time submission 2024-07-04T12:24:23-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-04T12:41:37-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-04T12:44:54-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-04T13:08:39-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T17:23:21-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T10:57:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Evanoff, Ben 100.0
+On time submission 2024-07-07T21:21:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T22:27:47-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:50:19-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:07:36-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Stiles, Colsen 100.0
+On time submission 2024-06-28T23:15:15-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T22:31:02-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T22:37:57-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T23:53:44-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T01:13:02-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T01:16:35-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Shan, Xijin 100.0
+On time submission 2024-07-02T00:02:47-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-03T09:45:00-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T09:51:01-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T09:52:06-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T09:52:53-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-03T09:53:27-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-03T10:35:09-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-03T10:40:06-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-03T10:50:29-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-03T10:51:45-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T16:29:24-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T16:32:06-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T16:38:36-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-04T16:40:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T16:48:34-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:01:17-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:03:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:06:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:09:17-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:16:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:21:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:30:02-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:33:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:39:24-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:41:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:44:51-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:49:02-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:53:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:54:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T19:06:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T19:10:41-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T19:13:49-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T19:32:44-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T19:38:01-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T20:03:19-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T20:05:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T21:14:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T22:52:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T22:55:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T23:05:14-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T23:14:24-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T23:24:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T23:31:47-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-04T23:36:10-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-04T23:45:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-05T00:01:41-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T00:20:30-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T00:24:37-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T01:38:36-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T15:45:44-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-05T18:39:13-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-05T18:43:10-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kanamarla, Nikhil Venkata 100.0
+On time submission 2024-07-07T15:14:21-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-07T15:18:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T15:24:55-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T15:35:12-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T15:39:43-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T15:43:04-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T15:50:56-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T16:00:48-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T16:08:54-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:55:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Taylor, Clark M 100.0
+On time submission 2024-06-29T14:22:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-29T16:57:35-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Prerepa, Aditya S 100.0
+On time submission 2024-07-07T23:32:53-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-07T23:51:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:52:36-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:54:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:19:24-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T23:20:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:30:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Huang, Wyatt 60.0
+On time submission 2024-07-07T10:21:31-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Spevak, Joshua 100.0
+On time submission 2024-07-04T19:16:11-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Liu, Yinchen 100.0
+On time submission 2024-06-14T12:33:15-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-14T12:43:29-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-14T13:13:55-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-18T14:34:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-18T14:46:16-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Hunter, Kenneth Duncan 100.0
+On time submission 2024-07-06T18:07:29-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-06T18:19:39-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-06T18:30:31-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-06T18:39:37-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-06T19:11:19-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T19:13:30-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T19:57:01-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T20:48:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T23:40:57-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T16:48:38-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Kozlowski, Neil Nikolajs 100.0
+Late submission 2024-07-14T14:51:59-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T15:30:49-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Jonathan Scott 80.0
+On time submission 2024-07-03T23:22:54-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-04T07:16:11-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-04T07:40:48-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-04T09:28:10-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-05T07:25:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T08:05:16-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T09:44:45-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-06T09:48:47-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Nam, Sean 100.0
+On time submission 2024-06-29T10:11:53-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-29T10:12:29-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-29T10:19:19-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T11:15:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T11:29:19-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T12:00:43-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T12:01:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T16:42:25-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-03T19:30:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T14:39:08-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T14:48:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:52:53-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T14:01:05-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Benitez, Esteban 100.0
+On time submission 2024-07-07T12:53:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T13:03:34-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Ellwanger, Robert Parker 100.0
+On time submission 2024-07-07T22:55:49-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T23:58:36-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Dowden, Sarah Hope 100.0
+On time submission 2024-06-25T08:14:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T08:22:23-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-25T08:24:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Bai, Haimo 100.0
+On time submission 2024-07-07T23:56:12-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Hu, Jason Z 90.0
+On time submission 2024-06-30T08:22:07-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-30T08:32:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T08:33:03-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T08:36:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T08:38:30-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-06-30T08:47:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T08:48:24-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-30T10:14:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:15:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:16:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:19:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:20:36-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-30T10:23:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:24:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:26:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:27:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:32:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:33:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:37:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:38:23-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-30T10:41:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-30T10:44:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:51:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:54:02-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T10:55:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-30T10:59:59-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-30T11:00:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T11:00:38-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Tang, Henry 100.0
+On time submission 2024-07-05T23:14:49-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T14:16:35-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Ze, Peter 100.0
+On time submission 2024-06-24T16:59:18-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lee, Chris Gunwoo 100.0
+On time submission 2024-07-06T10:12:46-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T10:47:09-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T17:45:48-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T10:36:50-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T11:44:45-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Pai, Neel 90.0
+On time submission 2024-07-07T18:33:16-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Handzel, Matt 100.0
+On time submission 2024-07-05T14:31:35-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-05T15:13:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-05T15:27:52-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Bobby 100.0
+On time submission 2024-06-23T16:07:40-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Samaha, Jacques 100.0
+On time submission 2024-06-05T11:26:47-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-06T11:48:00-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-07T09:59:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-07T10:02:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-16T02:29:56-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Yeo, Zayn 100.0
+On time submission 2024-06-28T23:17:42-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhou, Kevin 100.0
+On time submission 2024-06-22T03:31:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Gomathinayagam, Preeti 60.0
+On time submission 2024-06-17T20:44:01-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-18T09:18:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-18T23:07:41-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-19T23:08:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-19T23:42:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-19T23:44:54-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Metzger, Scott Allen 100.0
+On time submission 2024-06-19T05:01:14-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Wang, Yijia 100.0
+On time submission 2024-06-29T15:27:52-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-02T00:43:47-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-05T01:45:53-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-05T08:30:10-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T01:53:18-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T02:22:36-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Lee, Leo 100.0
+On time submission 2024-07-07T18:49:42-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T18:51:16-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T18:52:26-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T18:54:43-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-07T18:55:44-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T19:01:40-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T19:09:02-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:17:38-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T19:25:54-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:27:20-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:33:14-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:34:54-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:37:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:47:15-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:53:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:01:48-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:03:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:05:39-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:07:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T20:11:27-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Sheth, Areet 100.0
+On time submission 2024-07-07T16:22:43-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:28:03-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T23:24:10-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:58:57-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Carringer, Matthew 100.0
+Late submission 2024-07-14T22:29:55-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+Late submission 2024-07-14T22:35:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:37:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:39:08-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:39:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:41:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:42:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:44:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:46:19-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+Late submission 2024-07-14T22:50:18-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+Late submission 2024-07-14T22:51:49-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-14T22:54:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:56:57-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:58:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:59:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T22:59:56-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T23:00:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:13:27-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T23:14:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:54:47-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:58:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-14T23:59:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Maeng, Brian 48.0
+On time submission 2024-07-07T21:15:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Acelynn 100.0
+On time submission 2024-07-07T19:10:49-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-07T19:16:06-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-07-07T19:17:48-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-07T20:00:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:05:20-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:08:47-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-07T20:12:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:20:51-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:23:31-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:44:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:48:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:18:04-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T21:26:13-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T21:29:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T21:37:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:40:31-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:06:38-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:11:10-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:13:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T22:29:37-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Li, Victor 100.0
+On time submission 2024-07-07T11:17:29-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T11:36:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T18:25:48-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T18:26:46-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:04:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T19:18:56-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Blustein, Dan Sakai 100.0
+On time submission 2024-06-30T18:48:02-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-06-30T19:03:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Luke 100.0
+On time submission 2024-07-07T19:48:07-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:17:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:16:53-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:28:19-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:35:00-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:44:01-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:56:02-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:59:32-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:04:23-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:05:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:18:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:23:05-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:23:50-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:28:55-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:30:19-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:34:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:35:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:37:53-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:42:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:47:52-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T22:50:42-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:01:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:03:44-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Zhao, Andrew Anduo 90.0
+On time submission 2024-07-07T05:20:01-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Ranganathan, Rishabh 80.0
+On time submission 2024-06-24T19:39:07-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-29T07:46:18-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-29T07:50:03-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-29T07:52:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-29T15:21:39-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-29T15:32:44-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Desai, Karan Sanjay 100.0
+Late submission 2024-07-08T03:59:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Late submission 2024-07-08T04:55:57-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Wu, Jinfeng 80.0
+Late submission 2024-07-14T21:29:02-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+Late submission 2024-07-14T22:09:38-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+Lundy, Jade 32.0
+On time submission 2024-06-29T10:54:12-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Schmitz, Devin Michael 100.0
+On time submission 2024-07-05T10:20:29-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mao, Qizheng 100.0
+On time submission 2024-06-18T22:32:16-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-18T22:48:58-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-18T22:51:11-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-18T22:53:45-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-06-18T22:56:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T11:31:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T11:33:32-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T11:38:50-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T11:41:19-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T11:41:43-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T11:43:03-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T11:47:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T11:50:14-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T12:56:14-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T12:59:14-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T13:12:21-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T13:29:45-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-19T13:30:36-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-19T13:40:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T13:42:16-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T11:45:36-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T11:47:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T11:48:20-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T11:49:11-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T11:50:09-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T15:29:06-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T15:31:31-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T16:04:06-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:39:32-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T16:40:50-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-02T16:42:03-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:54:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T16:55:04-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-02T16:59:54-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-02T17:06:41-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-02T17:44:10-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-06T13:04:02-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-06T13:05:08-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Deka, Ayan Jeet 100.0
+On time submission 2024-06-10T22:56:23-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-11T20:10:25-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-11T23:14:56-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-06-13T10:29:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-13T10:32:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-06-13T12:44:48-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-06-14T11:15:48-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mangel, Yahav Shmuel 100.0
+On time submission 2024-07-07T00:07:39-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T12:12:44-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T19:08:00-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Singla, Anuj 100.0
+On time submission 2024-07-07T19:14:47-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Yan, Jeffrey 100.0
+On time submission 2024-06-28T17:44:11-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-06-30T17:37:21-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T17:37:55-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-30T17:42:37-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-30T17:43:40-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-30T17:44:33-05 of mps-haskell/mp4-forth-compiler: 0.15 points.
+On time submission 2024-06-30T17:54:14-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T19:52:55-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T20:11:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T20:29:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T22:29:00-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T22:32:55-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T22:36:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T01:08:20-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T01:24:36-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T01:26:23-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T01:37:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T02:52:46-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T02:55:20-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T03:02:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T03:12:29-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Hangao 100.0
+On time submission 2024-06-25T22:26:30-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-25T22:29:05-05 of mps-haskell/mp4-forth-compiler: 0.55 points.
+On time submission 2024-07-01T12:07:10-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-01T12:16:15-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-01T12:20:12-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-01T12:24:27-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T12:32:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T12:40:24-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-01T12:43:34-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T12:55:38-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-01T13:03:25-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:31:31-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-04T18:55:07-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-04T19:13:13-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Modesitt, Eric 100.0
+Late submission 2024-07-14T16:51:36-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Late submission 2024-07-14T23:58:46-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+Lee, Mike 56.0
+On time submission 2024-07-07T22:54:55-05 of mps-haskell/mp4-forth-compiler: 1 points.
+McDermott, Krista Eileen Kuzara 100.0
+On time submission 2024-07-01T17:38:28-05 of mps-haskell/mp4-forth-compiler: 0.5 points.
+On time submission 2024-07-01T17:45:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T10:13:46-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T12:23:18-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Pod, Sergiu C 80.0
+On time submission 2024-06-19T09:27:09-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-19T09:50:25-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-06-19T09:55:54-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-19T10:01:08-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-19T10:03:57-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-06-19T10:14:48-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-06-19T10:23:33-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:28:08-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:30:58-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:35:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:50:35-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:51:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-19T10:53:20-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T18:47:00-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T18:50:51-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:51:57-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T19:03:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:13:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T19:17:42-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T19:20:04-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T20:57:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:57:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T20:58:23-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:59:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:00:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:07:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:34:20-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:52:38-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:26:09-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:28:29-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T22:32:07-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:42:45-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T22:44:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:45:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:46:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:47:14-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:49:41-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:51:22-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:51:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:52:42-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:53:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:54:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:55:04-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:56:13-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:56:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T22:58:33-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T23:01:07-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Patel, Nishk 100.0
+On time submission 2024-07-07T12:50:34-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T17:38:06-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-07T18:01:49-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Boyapally, Saketh 100.0
+On time submission 2024-07-06T19:49:10-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-06T20:05:27-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-06T20:18:15-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-06T20:22:38-05 of mps-haskell/mp4-forth-compiler: 0.25 points.
+On time submission 2024-07-06T20:33:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T20:34:50-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T20:35:53-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T20:36:15-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T21:02:00-05 of mps-haskell/mp4-forth-compiler: 0.3 points.
+On time submission 2024-07-06T21:03:38-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T21:09:30-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T21:11:56-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-06T21:14:09-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T21:32:37-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-06T21:39:26-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T02:51:06-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T02:54:03-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T02:59:32-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T16:21:52-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:22:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T16:24:26-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T16:52:38-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T17:09:15-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T17:16:17-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T17:25:16-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:13:19-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:15:46-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:18:24-05 of mps-haskell/mp4-forth-compiler: 0.4 points.
+On time submission 2024-07-07T20:46:43-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T20:54:21-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:01:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T21:40:37-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:42:18-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:43:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:45:45-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T21:48:26-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-07T22:19:01-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T23:47:27-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+Bapatla, Suchit 80.0
+On time submission 2024-07-02T20:49:18-05 of mps-haskell/mp4-forth-compiler: 0.05 points.
+On time submission 2024-07-02T20:59:03-05 of mps-haskell/mp4-forth-compiler: 0.1 points.
+On time submission 2024-07-02T21:17:49-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-02T21:22:06-05 of mps-haskell/mp4-forth-compiler: 0.35 points.
+On time submission 2024-07-02T21:26:24-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T21:47:01-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:11:14-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:13:16-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:18:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:22:49-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:24:43-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:25:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-02T22:28:15-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T22:33:04-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:44:26-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:45:59-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:48:29-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:50:36-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:54:03-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-02T23:57:18-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:01:54-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T00:05:33-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T16:58:54-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:03:00-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:04:05-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:05:15-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:09:46-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:11:25-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:11:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:12:49-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:12:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:14:47-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:17:59-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:19:52-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:34:51-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:35:09-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:36:46-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:38:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:39:29-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:40:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-03T17:45:55-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-03T17:51:14-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T17:50:58-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:52:16-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:54:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:56:37-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T17:57:59-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:05:06-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:07:19-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:10:12-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:12:01-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:14:44-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:15:46-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T18:20:34-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-07T18:26:17-05 of mps-haskell/mp4-forth-compiler: 0 points.
+Fischer, Joshua 80.0
+On time submission 2024-07-07T15:48:49-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Xu, Zhentao 100.0
+On time submission 2024-06-24T18:30:04-05 of mps-haskell/mp4-forth-compiler: 1 points.
+McAskill, George 100.0
+On time submission 2024-07-05T01:43:34-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Yu, Yingjie 100.0
+On time submission 2024-07-07T22:34:22-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Patel, Dimple Tusharkumar 100.0
+On time submission 2024-06-24T04:26:28-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T04:32:22-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T09:04:39-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T09:13:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-06-24T09:20:40-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T09:24:38-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T09:55:30-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T09:57:13-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-24T13:05:42-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-25T01:35:01-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-06-27T12:59:26-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T14:40:30-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Arellano Tavara, Abraham 100.0
+On time submission 2024-06-29T21:27:01-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Mikhail, Daniel Nabil 100.0
+On time submission 2024-07-06T01:58:21-05 of mps-haskell/mp4-forth-compiler: 0.2 points.
+On time submission 2024-07-06T02:02:59-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-07-06T02:11:08-05 of mps-haskell/mp4-forth-compiler: 0.7 points.
+On time submission 2024-07-06T02:13:42-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T02:19:35-05 of mps-haskell/mp4-forth-compiler: 0 points.
+On time submission 2024-07-06T02:25:34-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-06T02:34:21-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Zhang, Zhenyu 100.0
+On time submission 2024-07-07T18:30:32-05 of mps-haskell/mp4-forth-compiler: 1 points.
+On time submission 2024-07-07T18:31:06-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Vijayan, Lux 100.0
+On time submission 2024-06-26T00:37:10-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+On time submission 2024-06-26T23:57:15-05 of mps-haskell/mp4-forth-compiler: 0.6 points.
+Thapar, Karan 60.0
+On time submission 2024-07-07T21:30:43-05 of mps-haskell/mp4-forth-compiler: 0.8 points.
+On time submission 2024-07-07T21:49:53-05 of mps-haskell/mp4-forth-compiler: 1 points.
+Meng, Haoming 100.0
+On time submission 2024-07-03T11:42:06-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-04T17:52:30-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+On time submission 2024-07-07T21:24:20-05 of mps-haskell/mp4-forth-compiler: 0.9 points.
+Estrada, Nicolas 90.0
