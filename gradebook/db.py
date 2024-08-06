@@ -31,7 +31,7 @@ def backup_database(params):
     "Create a backup of the database"
 
     with open(params['fname'],'w', encoding='utf-8') as file:
-        subprocess.check_call(['pg_dump', DATABASE], stdout=file)
+        subprocess.check_call(['pg_dump', '-f', 'data-files/database.sql', DATABASE], stdout=file)
 
 def restore_database(params):
     "Restore the database from backup"
