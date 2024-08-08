@@ -14,8 +14,9 @@ import os
 import sys
 import subprocess
 from contextlib import redirect_stdout
+from openpyxl import Workbook
 
-from gradebook.config import GITHUB_URL
+from gradebook.config import GITHUB_URL, TERM_CODE, CRN
 from gradebook.db import session
 from gradebook.parser import subparsers
 from gradebook.categories import Category
@@ -389,10 +390,35 @@ def clone_and_run_report(netid,report):
 
     return True
 
+def write_final_grade_spreadsheet(params):
+    """Create the spreadsheet for uploading final grades to the university."""
+
+    wb = Workbook()
+    ws = wb.active
+
+    if CRN == '' or TERM_CODE == '':
+        print("Warning: CRN and TERM_CODE were not defined.")
+
+    ws.append(['Term Code','CRN','Student ID','Final Grade'])
+
+    with open(f"/dev/null",'w') as devnull:
+        query = session.query(Student).filter(Student.status=='r')
+        for student in query.all():
+            with redirect_stdout(devnull):
+                result = report_netid(student.netid)
+                data = [TERM_CODE,CRN,result]
+                ws.append(data)
+
+    wb.save('output-files/grades.xlsx')
+
+
 def get_report(params):
     params['netid'] = params['netid'].replace('@illinois.edu','')
 
-    if params['github']:
+    if params['final']:
+        write_final_grade_spreadsheet(params)
+
+    elif params['github']:
         if params['netid'] == '' and params['all']:
             query = session.query(Student)
             for student in query.all():
@@ -430,4 +456,5 @@ report_parser.add_argument('--netid', '-n', type=str, default='', help='report f
 report_parser.add_argument('--uin', '-u', type=str, default='', help='report for a specific uin')
 report_parser.add_argument('--github', '-g', action='store_true', help='Report to github')
 report_parser.add_argument('--all', '-a', action='store_true', help='Report all of them')
+report_parser.add_argument('--final', '-f', action='store_true', help='Generate the final grade entry excel spreadsheet')
 report_parser.set_defaults(func=get_report)

@@ -13,6 +13,9 @@ CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
 
 GITHUB_URL = 'https://github.com/illinois-cs-coursework/su24_cs421_{netid}.git'
 
+TERM_CODE = ''
+CRN       = ''
+
 # This is for Coursera, the format is slug: (normal,override)
 
 # For this semester, due to mastery learning, we will not read the exam score from Coursera,
