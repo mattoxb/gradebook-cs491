@@ -164,7 +164,6 @@ def report_netid(netid, uin=''):
         return None
 
     print(f'# Grade Report for {student.name} ({student.netid})\n')
-    print(f'Generated {show(datetime.datetime.now())}\n\n')
     print("Errors?  Please email mattox@beckman-park.net\n\n")
 
     # ------------------------------
