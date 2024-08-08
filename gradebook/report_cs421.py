@@ -406,7 +406,7 @@ def write_final_grade_spreadsheet(params):
         for student in query.all():
             with redirect_stdout(devnull):
                 result = report_netid(student.netid)
-                data = [TERM_CODE,CRN,result]
+                data = [TERM_CODE,CRN,student.uin,result]
                 ws.append(data)
 
     wb.save('output-files/grades.xlsx')
