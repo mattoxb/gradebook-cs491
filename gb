@@ -17,6 +17,7 @@ import gradebook.assignments
 import gradebook.scores
 import gradebook.report_cs421
 import gradebook.exam_zones
+import gradebook.notes
 
 #import gradebook.categories as categories
 
