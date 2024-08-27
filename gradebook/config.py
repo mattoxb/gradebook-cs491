@@ -2,17 +2,14 @@
 
 """
 This module contains the configuration variables.
-There is just one: DATABASE.
-
-It will have the form 'postgresql+psycopg2:///cs421-su24-grades',
-and is passed to sqlalchemy's `create_engine`.
 """
 
-DATABASE = 'cs421-su24-grades'
+DATABASE = '' # 'cs421-su24-grades'
 CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
 
-GITHUB_URL = 'https://github.com/illinois-cs-coursework/su24_cs421_{netid}.git'
+GITHUB_URL = '' # 'https://github.com/illinois-cs-coursework/su24_cs421_{netid}.git'
 
+# 1 + YYYY + [1,5,8]
 TERM_CODE = ''
 CRN       = ''
 
