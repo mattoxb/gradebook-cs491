@@ -27,6 +27,7 @@ class Assignment(Base):
     category_id = Column(Integer, ForeignKey('categories.id'))
     order = Column(Integer)
     max_points = Column(Integer)
+    start_date = Column(String)
 
 def load_assignments(params):
     """Load assignments into the database from a CSV.  If an assignment is already in the
@@ -58,6 +59,7 @@ def load_assignments(params):
                 a.title = row['title']
                 a.max_points = int(row['max_points'])
                 a.order = int(row['order'])
+                a.start_date = row['start_date']
 
                 # Keep track of new assignments to insert pending scores.
                 new_asns.append(a.slug)
@@ -68,6 +70,7 @@ def load_assignments(params):
                 a.title = row['title']
                 a.max_points = int(row['max_points'])
                 a.order = int(row['order'])
+                a.start_date = row['start_date']
             session.add(a)
     session.commit()
 
