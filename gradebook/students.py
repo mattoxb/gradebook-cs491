@@ -101,7 +101,7 @@ def load_roster(params):
             s = Student()
             for (k,v) in zip(["netid","uin","admit_term","gender","name","email","credit","level",
                               "year","subject","number","section","crn","degree","major","college",
-                              "program_name","ferpa"],elts):
+                              "program_code","program_name","ferpa"],elts):
                 setattr(s,k,v)
 
             s.status = 'r'
@@ -136,8 +136,8 @@ def load_roster(params):
     # Otherwise, we need to add pending scores for new students
     ## First get the assignment ids
 
-    from gb.assignments import Assignment
-    from gb.scores import Score
+    from gradebook.assignments import Assignment
+    from gradebook.scores import Score
 
     ids = []
     for asn in session.query(Assignment).all():
