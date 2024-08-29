@@ -11,7 +11,7 @@ It creates a `student` subcommand with four subcommands of its own:
 - show roster :: display or return a pandas frame of the current roster
 - netid :: fzf search the roster and return the matching netid(s)
 - uin :: fzf search the roster and return the matching UIN(s)
-- upload roster :: load the rpt_all_students.xls
+- upload roster :: load the rpt_viewroster.xls
 """
 
 from sqlalchemy import Column, Integer, String, ForeignKey
@@ -80,7 +80,7 @@ class Coursera_UID(Base):
 # --------------------------------------------------------------------------------
 
 def load_roster(params):
-    "Loads the UIUC rpt_all_student.xls file and adds the information to the database"
+    "Loads the UIUC rpt_viewroster.xls file and adds the information to the database"
 
     # Open an html table containing the roster.
 
@@ -319,6 +319,6 @@ show_roster_parser.set_defaults(func=show_roster)
 #    Import the Roster
 roster_parser = sstp.add_parser('load-roster', aliases=['l','ld','lr','load'],
                                 help='load the roster')
-roster_parser.add_argument('-f', '--fname', type=str, default='data-files/rpt_all_students.xls',
-                           help='The file name of the roster, defaults to data-files/rpt_all_students.xls')
+roster_parser.add_argument('-f', '--fname', type=str, default='data-files/rpt_viewroster.xls',
+                           help='The file name of the roster, defaults to data-files/rpt_viewroster.xls')
 roster_parser.set_defaults(func=load_roster)
