@@ -238,12 +238,20 @@ def get_netid(args):
 
     names = roster.split('\n')
 
-    netids = map(lambda x: x.split()[1], FzfPrompt().prompt(names,'--multi'))
+    if args['all']:
+        for netid in map(lambda x: x.split()[1], names):
+            print(netid)
+    elif args['email']:
+        for netid in map(lambda x: x.split()[1], names):
+            print(f'{netid}@illinois.edu')
+    else:
 
-    for netid in netids:
-        print(netid)
+        netids = map(lambda x: x.split()[1], FzfPrompt().prompt(names,'--multi'))
 
-    return netid
+        for netid in netids:
+            print(netid)
+
+        return netid
 
 def get_one_netid(args = {}):
     "Get a single netid.  Intended for use by other functions."
@@ -298,6 +306,8 @@ sstp = student_parser.add_subparsers(title='student subcommands', help='student 
 #    Select Netids
 get_netid_parser = sstp.add_parser('netid', aliases=['n'], help='get Netids')
 get_netid_parser.add_argument('-s','--section',type=str,help='Filter by section')
+get_netid_parser.add_argument('-a','--all',action='store_true',help='Print out all the netids instead of selecting')
+get_netid_parser.add_argument('-e','--email',action='store_true',help='Print out all the emails instead of selecting')
 get_netid_parser.set_defaults(func=get_netid)
 
 #    Select Uins
