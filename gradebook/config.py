@@ -11,7 +11,7 @@ GITHUB_URL = 'https://github.com/illinois-cs-coursework/fa24_cs491cap_{netid}.gi
 
 # 1 + YYYY + [1,5,8]
 TERM_CODE = '120248'
-CRN       = ''
+CRNS      = ['65816']
 
 # This is for Coursera, the format is slug: (normal,override)
 
