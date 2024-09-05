@@ -20,6 +20,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from pyfzf.pyfzf import FzfPrompt
 
+from gradebook.config import CRNS
 from gradebook.utilities import slugify, levenshtein_distance
 from gradebook.db import session, Base
 from gradebook.parser import subparsers
@@ -97,6 +98,10 @@ def load_roster(params):
         elts = [td.text for td in row.select('td')]
         netid = elts[0]
         q = session.query(Student).filter(Student.netid == netid)
+        if elts[12] not in CRNS:
+            print(f"Warning: Invalid CRN: {netid}'s CRN {elts[12]} is not in {CRNS}")
+            continue
+        
         if q.count() == 0:  # new student
             s = Student()
             for (k,v) in zip(["netid","uin","admit_term","gender","name","email","credit","level",
