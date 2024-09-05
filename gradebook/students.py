@@ -101,7 +101,7 @@ def load_roster(params):
         if elts[12] not in CRNS:
             print(f"Warning: Invalid CRN: {netid}'s CRN {elts[12]} is not in {CRNS}")
             continue
-        
+
         if q.count() == 0:  # new student
             s = Student()
             for (k,v) in zip(["netid","uin","admit_term","gender","name","email","credit","level",
