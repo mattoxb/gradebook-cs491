@@ -15,7 +15,7 @@ import subprocess
 from contextlib import redirect_stdout
 from openpyxl import Workbook
 
-from gradebook.config import GITHUB_URL, TERM_CODE, CRN
+from gradebook.config import GITHUB_URL, TERM_CODE
 from gradebook.db import session
 from gradebook.parser import subparsers
 from gradebook.categories import Category
