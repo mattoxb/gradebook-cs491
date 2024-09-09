@@ -1,1 +1,9 @@
 order,category,slug,max_points,start_date,title
+1,attendance,aug-26,1,2024-08-26,August 26
+2,attendance,aug-28,1,2024-08-26,August 28
+3,attendance,aug-30,1,2024-08-30,August 30
+4,attendance,sep-04,1,2024-09-04,September 4
+4,attendance,sep-06,1,2024-09-06,September 6
+5,attendance,sep-09,1,2024-09-09,September 9
+6,attendance,sep-11,1,2024-09-11,September 11
+7,attendance,sep-13,1,2024-09-13,September 13

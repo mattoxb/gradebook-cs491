@@ -243,10 +243,10 @@ def get_netid(args):
 
     names = roster.split('\n')
 
-    if args['all']:
+    if 'all' in args and args['all']:
         for netid in map(lambda x: x.split()[1], names):
             print(netid)
-    elif args['email']:
+    elif 'email' in args and args['email']:
         for netid in map(lambda x: x.split()[1], names):
             print(f'{netid}@illinois.edu')
     else:

@@ -37,6 +37,50 @@ def curve(score):
     return "None"
 
 
+def getCategoryScores(student,category):
+    return session.query(Assignment,Score,Category) \
+                        .filter(Score.student_id == student.id)\
+                        .filter(Score.assignment_id == Assignment.id) \
+                        .filter(Category.slug == category) \
+                        .filter(Assignment.category_id == Category.id) \
+                        .order_by(Assignment.order).all()
+
+def dropNLowest(scores,n):
+    """Drop the n lowest scores in list scores.  Returns resulting average.
+    
+    If |scores| = 0, returns None.
+    If |scores| < n, drops |scores|-1.
+    """
+
+    def dropping_string(n):
+        if n == 1:
+            return "lowest score"
+        else:
+            return f"{n} lowest scores"
+
+    if scores is None:
+        return None
+
+    scores.sort()
+
+    if len(scores) == 0:
+        return {}
+    if n > 0 and len(scores) < n:
+        print(f"Dropping {dropping_string(len(scores)-1)}. " +
+        "(Need > {n} scores before all drops can occur.):")
+        n = len(scores)-1
+    else:
+        print(f"Dropping {dropping_string(n)}:")
+
+    print("  ",end='')
+    drops = scores[0:n]
+    for d in drops:
+        print(f"{d:.2f} ",end='')
+    print()
+    average = sum(scores[n:])/(len(scores)-n)
+
+    return average
+
 def report_netid(netid, uin=''):
     "Generate a report for a given netid.  Returns the letter grade."
 
@@ -52,8 +96,36 @@ def report_netid(netid, uin=''):
     print(f'# Grade Report for {student.name} ({student.netid})\n')
     print("Errors?  Please email mattox@illionis.edu\n\n")
 
-    print("This is just a placeholder for now.  We will start publishing grades after labor day.")
+    print("\n# Attendance\n")
 
+    attendance = []
+    data = []
+    count = 0
+    for (asn,score,cat) in getCategoryScores(student,'attendance'):
+        entry = {'Attendance': asn.title}
+        s = 0
+        if score.status == 'p':
+            entry['Score'] = 'Pending'
+        elif score.status == 'x':
+            entry['Score'] = 'Excused'
+        elif score.status == 'm':
+            entry['Score'] = 'Missing'
+            attendance.append(0)
+            count += 1
+        else:
+            entry['Score'] = f'{score.score:.2f}'
+            attendance.append(score.score)
+            count += 1
+
+        data.append(entry)
+  
+    print(pd.DataFrame(data).to_string(index=False))
+    print()
+    
+    attendance_total = dropNLowest(attendance,0)
+
+    print(f'\n- Attendance Average: {attendance_total:.2f}%\n\n')
+   
 def clone_and_run_report(netid,report):
     "Clone the repository and try to add the grade report to it."
     # Define the directory path
@@ -93,7 +165,8 @@ def get_report(params):
 
     elif params['github']:
         if params['netid'] == '' and params['all']:
-            query = session.query(Student)
+            query = session.query(Student).filter(Student.status=='r')
+            print("Reporting....")
             for student in query.all():
                 clone_and_run_report(student.netid,lambda: report_netid(student.netid))
         else:

@@ -14,6 +14,7 @@ There are two functions:
 import csv
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Float, update
 import pandas as pd
+import re
 
 from gradebook.db import session, Base
 from gradebook.parser import subparsers
@@ -252,6 +253,43 @@ def update_score(score,new_value):
 
     session.add(score)
 
+def load_attendance(params):
+    months = { '08':'aug',
+               '09':'sep',
+               '10':'oct',
+               '11':'nov',
+               '12':'dec' }
+    
+    with open('score-files/attendance.csv') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            uin = row['uin']
+            q = session.query(Student).filter(Student.uin == uin)
+            if q.count() == 0:
+                # print(f"Student UIN {row['UIN']} name {row['Name']} not found.")
+                continue
+            student = q.first()
+            if student.status == 'd':
+                continue
+
+            dates = row['comment']
+            for d in re.findall(r'[0-9]+/[0-9]+',dates):
+                mon,day = d.split('/')
+                slug = f"{months[mon]}-{int(day):02d}"
+                
+                result = session.query(Score,Assignment).filter(Score.student_id == student.id,
+                                                                Assignment.slug == slug,
+                                                                Score.assignment_id == Assignment.id).first()
+                
+                if result is None:
+                    print(f"Student {student.name} / {student.netid} does not have a score entry for {slug}.")
+                else:
+                    score = result[0]
+                    score.score = 100
+                    score.status = 'g'
+                    session.add(score)
+        session.commit()
+
 def load_scores(params):
     """Load the scores from a file that has a student and one or more scores.  Use should provide a
     mapping from the column names to the netid/uin and the assignment slugs."""
@@ -447,6 +485,12 @@ load_submissions_parser.add_argument('fname', type=str,
                          help='The CSV file with the scores info. \
                          Column header(s) contains the slug(s).')
 load_submissions_parser.set_defaults(func=load_submissions_scores)
+
+attendance_parser = subs.add_parser('attendance', aliases=['a','att'],
+                                  help='Load scores from an attendance app.')
+attendance_parser.add_argument('fname', type=str,
+                             help='The CSV file with the scores info.')
+attendance_parser.set_defaults(func=load_attendance)
 
 coursera_parser = subs.add_parser('coursera', aliases=['c','coursera'],
                                   help='Load scores from a Coursera csv.')

@@ -7,7 +7,7 @@ This module contains the configuration variables.
 DATABASE = 'cs491cap-fa24-grades'
 CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
 
-GITHUB_URL = 'https://github.com/illinois-cs-coursework/fa24_cs491cap_{netid}.git'
+GITHUB_URL = 'https://github.com/illinois-cs-coursework/sp24_cs491cap_{netid}.git'
 
 # 1 + YYYY + [1,5,8]
 TERM_CODE = '120248'
