@@ -1,0 +1,995 @@
+<table >
+<thead>
+<tr>
+<th >Net ID</th>
+<th >UIN</th>
+<th >Admit Term</th>
+<th >Gender</th>
+<th >Name</th>
+<th >Email Address</th>
+<th >Credit</th>
+<th >Level</th>
+<th >Year</th>
+<th >Subject</th>
+<th >Number</th>
+<th >Section</th>
+<th >CRN</th>
+<th >Degree Name</th>
+<th >Major 1 Name</th>
+<th >College</th>
+<th >Program Code</th>
+<th >Program Name</th>
+<th >FERPA</th>
+<th >Honors Credit</th>
+<th >Advisors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td >aayush8</td>
+<td >656721546</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Agarwal, Aayush</td>
+<td >aayush8@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >hali53</td>
+<td >660787348</td>
+<td >Fall 2024</td>
+<td >M</td>
+<td >Ali, Hammad</td>
+<td >hali53@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >aashok8</td>
+<td >665301876</td>
+<td >Fall 2024</td>
+<td >M</td>
+<td >Ashok, Aditya</td>
+<td >aashok8@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >rohitmb2</td>
+<td >655292335</td>
+<td >Fall 2024</td>
+<td >M</td>
+<td >Bhise, Rohit</td>
+<td >rohitmb2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >arjit2</td>
+<td >670230560</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Bose, Arjit</td>
+<td >arjit2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Junior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Math & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV1438BSLA</td>
+<td >BSLAS:Math&Computer Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Deters, Jacob (deters)</td>
+</tr>
+<tr>
+<td >cychen6</td>
+<td >671901702</td>
+<td >Fall 2023</td>
+<td >F</td>
+<td >Chen, Claire Yuanyi</td>
+<td >cychen6@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Math & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV1438BSLA</td>
+<td >BSLAS:Math&Computer Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Champion, Alison (abc)</td>
+</tr>
+<tr>
+<td >zihengc2</td>
+<td >673056619</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Chen, Jack</td>
+<td >zihengc2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MS</td>
+<td >Electrical & Computer Engr</td>
+<td >Grainger Engineering</td>
+<td >10KS1200MS</td>
+<td >MS:Electr & Computer Eng-UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Iyer, Ravishankar (rkiyer)</td>
+</tr>
+<tr>
+<td >anupamd2</td>
+<td >668031185</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Das, Anupam</td>
+<td >anupamd2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Junior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >aashayd2</td>
+<td >661759016</td>
+<td >Fall 2022</td>
+<td >M</td>
+<td >Desai, Aashay</td>
+<td >aashayd2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Herzog, Stephen (smherzog)</td>
+</tr>
+<tr>
+<td >sdonty2</td>
+<td >672275678</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Donty, Sanket Nagesh Babu</td>
+<td >sdonty2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >dylanad2</td>
+<td >650643984</td>
+<td >Fall 2021</td>
+<td >M</td>
+<td >Dunham, Dylan Alexander</td>
+<td >dylanad2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zermeno Yerenas, Fabian (faz2)</td>
+</tr>
+<tr>
+<td >rrfang2</td>
+<td >657948098</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Fang, Richard Ricky</td>
+<td >rrfang2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >rajasg2</td>
+<td >668024151</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Gandhi, Rajas</td>
+<td >rajasg2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zermeno Yerenas, Fabian (faz2)</td>
+</tr>
+<tr>
+<td >sgandhi</td>
+<td >655792550</td>
+<td >Summer 2023</td>
+<td >M</td>
+<td >Gandhi, Shoorsen Rajul</td>
+<td >sgandhi@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Sophomore</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >NONE</td>
+<td >Engineering Undeclared</td>
+<td >Grainger Engineering</td>
+<td >10KP5333NONE</td>
+<td >NONE:Engineering Undecl - UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >geda2</td>
+<td >668712237</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Geda, Sai Venkata Abhijith</td>
+<td >geda2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >eeho2</td>
+<td >663921510</td>
+<td >Fall 2021</td>
+<td >F</td>
+<td >Ho, Emily</td>
+<td >eeho2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Computer Science & Geog & GIS</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV5676BSLA</td>
+<td >BSLAS:Comp Sci & Geog&GIS-UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >peiyuan3</td>
+<td >668352861</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Jin, Peiyuan</td>
+<td >peiyuan3@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >jacobak3</td>
+<td >674580471</td>
+<td >Fall 2022</td>
+<td >M</td>
+<td >Kalinovskiy, Jacob</td>
+<td >jacobak3@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Engineering</td>
+<td >Grainger Engineering</td>
+<td >10KP0109BS</td>
+<td >BS:Computer Engineering -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >pskalle2</td>
+<td >664898839</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Kalle, Prabhat Sarathi</td>
+<td >pskalle2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Math & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV1438BSLA</td>
+<td >BSLAS:Math&Computer Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Herzog, Stephen (smherzog)</td>
+</tr>
+<tr>
+<td >kasink2</td>
+<td >657415061</td>
+<td >Fall 2020</td>
+<td >M</td>
+<td >Kasetphaisansin, Kasin</td>
+<td >kasink2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Engineering</td>
+<td >Grainger Engineering</td>
+<td >10KP0109BS</td>
+<td >BS:Computer Engineering -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >akhot2</td>
+<td >652402729</td>
+<td >Fall 2021</td>
+<td >M</td>
+<td >Khot, Ayush</td>
+<td >akhot2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Engineering Physics</td>
+<td >Grainger Engineering</td>
+<td >10KP0121BS</td>
+<td >BS:Engineering Physics -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Rose, Jennifer (jennrose)</td>
+</tr>
+<tr>
+<td >kona2</td>
+<td >653447449</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Kona, Ashrith</td>
+<td >kona2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >ashwath6</td>
+<td >652454211</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Krishnan, Ashwath</td>
+<td >ashwath6@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >pk46</td>
+<td >678862671</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Kulkarni, Prakhyat</td>
+<td >pk46@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >akuma29</td>
+<td >652045924</td>
+<td >Fall 2021</td>
+<td >M</td>
+<td >Kumar, Aakash</td>
+<td >akuma29@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Computer Science & Economics</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV5667BSLA</td>
+<td >BSLAS: Comp Sci & Econ - UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >wentaol4</td>
+<td >657535327</td>
+<td >Fall 2024</td>
+<td >M</td>
+<td >Li, Victor</td>
+<td >wentaol4@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zermeno Yerenas, Fabian (faz2)</td>
+</tr>
+<tr>
+<td >esliu3</td>
+<td >678602047</td>
+<td >Fall 2021</td>
+<td >M</td>
+<td >Liu, Eric</td>
+<td >esliu3@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Math & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV1438BSLA</td>
+<td >BSLAS:Math&Computer Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Herzog, Stephen (smherzog); Powers, Kimberly (powerska)</td>
+</tr>
+<tr>
+<td >rkmohan2</td>
+<td >665000313</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Mohan, Rik</td>
+<td >rkmohan2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >smudili2</td>
+<td >650934148</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Mudili, Sandeep</td>
+<td >smudili2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >tvm3</td>
+<td >668822189</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Mullapudi, Taraka Vignesh</td>
+<td >tvm3@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >nishkdp2</td>
+<td >655207533</td>
+<td >Fall 2022</td>
+<td >M</td>
+<td >Patel, Nishk</td>
+<td >nishkdp2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Statistics & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV0464BSLA</td>
+<td >BSLAS:Stats & Comp Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >gauravr2</td>
+<td >663130396</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Reddy, Gaurav</td>
+<td >gauravr2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >sawanoi2</td>
+<td >659096180</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Sawanoi, Yuuki</td>
+<td >sawanoi2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Math & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV1438BSLA</td>
+<td >BSLAS:Math&Computer Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >mihirs2</td>
+<td >656078886</td>
+<td >Fall 2022</td>
+<td >M</td>
+<td >Shah, Mihir Laxmikant</td>
+<td >mihirs2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >nuoxing2</td>
+<td >668440633</td>
+<td >Fall 2022</td>
+<td >F</td>
+<td >Shang, Loretta</td>
+<td >nuoxing2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Statistics & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV8037BSLA</td>
+<td >BSLAS:LAS Multiple Majors-UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >pps6</td>
+<td >656504819</td>
+<td >Fall 2023</td>
+<td >F</td>
+<td >Shroff, Palvi Prasad</td>
+<td >pps6@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >adelias2</td>
+<td >662994070</td>
+<td >Fall 2021</td>
+<td >F</td>
+<td >Solarman, Adelia</td>
+<td >adelias2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+<tr>
+<td >vismays2</td>
+<td >656431074</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Suramwar, Vismay Sachin</td>
+<td >vismays2@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >anniet5</td>
+<td >668566983</td>
+<td >Fall 2023</td>
+<td >F</td>
+<td >Thomas, Annie</td>
+<td >anniet5@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KP0112BS</td>
+<td >BS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Deters, Jacob (deters)</td>
+</tr>
+<tr>
+<td >augale2</td>
+<td >672512840</td>
+<td >Spring 2024</td>
+<td >M</td>
+<td >Ugale, Abhishek Sharad</td>
+<td >augale2@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MCS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MCS</td>
+<td >MCS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td >jeremy19</td>
+<td >674570352</td>
+<td >Fall 2023</td>
+<td >M</td>
+<td >Wu, Jeremy</td>
+<td >jeremy19@illinois.edu</td>
+<td >3</td>
+<td >1U</td>
+<td >Senior</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >BSLAS</td>
+<td >Statistics & Computer Science</td>
+<td >Liberal Arts & Sciences</td>
+<td >10KV0464BSLA</td>
+<td >BSLAS:Stats & Comp Sci -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Jones, Katrina (kreneej)</td>
+</tr>
+<tr>
+<td >zhan32</td>
+<td >675250300</td>
+<td >Fall 2024</td>
+<td >M</td>
+<td >Zhan, Jianyuan</td>
+<td >zhan32@illinois.edu</td>
+<td >3</td>
+<td >1G</td>
+<td >Graduate</td>
+<td >CS</td>
+<td >491</td>
+<td >CAP</td>
+<td >65816</td>
+<td >MS</td>
+<td >Computer Science</td>
+<td >Grainger Engineering</td>
+<td >10KS0112MS</td>
+<td >MS:Computer Science -UIUC</td>
+<td >N</td>
+<td ></td>
+<td >Zike, Heather (hlzike)</td>
+</tr>
+</tbody>
+</table>

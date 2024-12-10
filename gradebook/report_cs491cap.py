@@ -125,7 +125,52 @@ def report_netid(netid, uin=''):
     attendance_total = dropNLowest(attendance,0)
 
     print(f'\n- Attendance Average: {attendance_total:.2f}%\n\n')
+
+
+    print("\n# Problems\n")
+
+    problems = []
+    data = []
+    count = 0
+    solves = 0
+    for (asn,score,cat) in getCategoryScores(student,'problems'):
+        entry = {'Problems': asn.title.ljust(50)}
+        s = 0
+        if score.status == 'p':
+            entry['Score'] = 'Pending'
+        elif score.status == 'x':
+            entry['Score'] = 'Excused'
+        elif score.status == 'm':
+            entry['Score'] = 'Missing'
+            problems.append(0)
+            count += 1
+        else:
+            entry['Score'] = f'{score.score:.2f}'
+            problems.append(score.score)
+            if score.score > 0:
+                solves = solves + score.score / 100
+            count += 1
+
+        data.append(entry)
+
+    df = pd.DataFrame(data)
+    print(df.to_string(index=False, col_space={'Problems': 50}))
+    print()
    
+    problems_total = dropNLowest(problems,0)
+
+    if type(problems_total) != float:
+        print(f'\n- Problems Average: 0%\n\n')
+    else:
+        print(f'\n- Problems Average: {problems_total:.2f}% ({solves}/{count} problems).\n\n')
+
+    if attendance_total < 0.6 or solves < 60:
+        return "U"
+    else:
+        return "S"
+
+
+
 def clone_and_run_report(netid,report):
     "Clone the repository and try to add the grade report to it."
     # Define the directory path

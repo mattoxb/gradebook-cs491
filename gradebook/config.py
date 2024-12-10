@@ -5,7 +5,9 @@ This module contains the configuration variables.
 """
 
 DATABASE = 'cs491cap-fa24-grades'
-CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
+#CONNECTION = f'postgresql+psycopg2:///{DATABASE}'
+CONNECTION = f'sqlite:///{DATABASE}.sql'
+
 
 GITHUB_URL = 'https://github.com/illinois-cs-coursework/sp24_cs491cap_{netid}.git'
 

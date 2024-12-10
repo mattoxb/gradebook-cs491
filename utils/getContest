@@ -1,0 +1,14 @@
+key=753715fb821ab624ecd202f10c465f27af2c72c0
+secret=03469fccd7ca591b23e71016feafa1ddc425d3ce
+time=$(date +%s)
+
+url="contest.standings?apiKey=$key&contestId=$1&showUnofficial=true&time=$time"
+#echo URL is $url
+#echo Time is $time
+
+hash=$(echo -n 123456/$url#$secret | sha512sum | grep -o '[0-9a-f]\+')
+#echo Hash of 123456/$url#$secret
+#echo $hash
+
+#echo curl "https://codeforces.com/api/$url&apiSig=123456$hash"
+curl "https://codeforces.com/api/$url&apiSig=123456$hash"

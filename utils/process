@@ -1,0 +1,7 @@
+contest=$(echo $1 | sed 's/.*\(......\)$/\1/')
+echo contest is $contest
+./getContest $contest > ../score-files/$2.json
+python getAssignments.py ../score-files/$2.json >> ../data-files/assignments.csv
+tail ../data-files/assignments.csv
+python getScores.py ../score-files/$2.json > ../score-files/$2.csv
+head ../score-files/$2.csv

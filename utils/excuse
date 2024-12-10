@@ -1,0 +1,2 @@
+echo $1,$(gb stu netid),x >> score-files/overrides.csv
+gb sco l score-files/overrides.csv

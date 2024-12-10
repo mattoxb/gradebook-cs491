@@ -7,3 +7,133 @@ order,category,slug,max_points,start_date,title
 5,attendance,sep-09,1,2024-09-09,September 9
 6,attendance,sep-11,1,2024-09-11,September 11
 7,attendance,sep-13,1,2024-09-13,September 13
+8,attendance,sep-16,1,2024-09-16,September 16
+9,attendance,sep-18,1,2024-09-18,September 18
+10,attendance,sep-20,1,2024-09-20,September 20
+11,attendance,sep-23,1,2024-09-23,September 23
+12,attendance,sep-25,1,2024-09-25,September 25
+13,attendance,sep-27,1,2024-09-27,September 27
+14,attendance,sep-30,1,2024-09-30,September 30
+15,attendance,oct-02,1,2024-10-02,October 2
+16,attendance,oct-04,1,2024-10-02,October 4
+17,attendance,oct-07,1,2024-10-07,October 7
+18,attendance,oct-09,1,2024-10-09,October 9
+19,attendance,oct-11,1,2024-10-11,October 11
+23,attendance,oct-14,1,2024-10-14,October 14
+24,attendance,oct-16,1,2024-10-16,October 16
+25,attendance,oct-18,1,2024-10-18,October 18
+26,attendance,oct-21,1,2024-10-21,October 21
+27,attendance,oct-23,1,2024-10-23,October 23
+28,attendance,oct-25,1,2024-10-25,October 25
+29,attendance,oct-28,1,2024-10-28,October 28
+30,attendance,oct-30,1,2024-10-30,October 30
+31,attendance,nov-01,1,2024-11-01,November 1
+32,attendance,nov-04,1,2024-11-04,November 4
+33,attendance,nov-06,1,2024-11-06,November 6
+34,attendance,nov-08,1,2024-11-08,November 8
+35,attendance,nov-11,1,2024-11-11,November 11
+36,attendance,nov-13,1,2024-11-13,November 13
+37,attendance,nov-15,1,2024-11-15,November 15
+38,attendance,nov-18,1,2024-11-18,November 18
+39,attendance,nov-20,1,2024-11-20,November 20
+41,attendance,dec-02,1,2024-12-02,December 2
+42,attendance,dec-04,1,2024-12-04,December 4
+44,attendance,dec-09,1,2024-12-09,December 9
+100,problems,test-contest-a-a-b,1,2024-08-26,Test Contest A: A + B
+101,problems,io-problems-preclass-a-io-explicit-counts,1,2024-08-28,IO Problems - Preclass A: IO - Explicit Counts
+102,problems,io-problems-preclass-b-io-end-markers,1,2024-08-28,IO Problems - Preclass B: IO - End Markers
+103,problems,io-problems-preclass-c-io-end-of-file,1,2024-08-28,IO Problems - Preclass C: IO - End of File
+104,problems,cs-491-stl-a-radio-station,1,2024-08-30,CS 491 - STL A: Radio Station
+105,problems,cs-491-stl-b-highs-and-lows,1,2024-08-30,CS 491 - STL B: Highs and Lows
+106,problems,cs-491-stl-c-smartphone,1,2024-08-30,CS 491 - STL C: Smartphone
+107,problems,cs-491-complete-search-a-placing-queens,1,2024-09-04,CS 491 - Complete Search A: Placing Queens
+108,problems,cs-491-complete-search-b-slay-the-boss,1,2024-09-04,CS 491 - Complete Search B: Slay the Boss
+109,problems,cs-491-complete-search-c-teaming-,1,2024-09-04,CS 491 - Complete Search C: Teaming!
+110,problems,cs-491-complete-search-d-ordering-pizza,1,2024-09-04,CS 491 - Complete Search D: Ordering Pizza
+111,problems,cs-491-divide-and-conquer-a-higher-or-lower,1,2024-09-06,CS 491 - Divide and Conquer A: Higher or Lower
+112,problems,cs-491-divide-and-conquer-b-delicious-pizzas-,1,2024-09-06,CS 491 - Divide and Conquer B: Delicious Pizzas!
+113,problems,cs-491-divide-and-conquer-c-red-black-tree,1,2024-09-06,CS 491 - Divide and Conquer C: Red-Black Tree
+114,problems,cs-491-divide-and-conquer-d-letianpie-loves-playing-games,1,2024-09-06,CS 491 - Divide and Conquer D: LetianPie Loves Playing Games
+115,problems,cs-491-binary-search-trees-a-node-sums,1,2024-09-09,CS 491 - Binary Search Trees A: Node Sums
+116,problems,cs-491-binary-search-trees-b-building-trees,1,2024-09-09,CS 491 - Binary Search Trees B: Building Trees
+117,problems,cs-491-binary-search-trees-c-tree-coloring,1,2024-09-09,CS 491 - Binary Search Trees C: Tree Coloring
+118,problems,cs-491-disjoint-sets-a-bipartite,1,2024-09-11,CS 491 - Disjoint Sets A: Bipartite
+119,problems,cs-491-disjoint-sets-b-fountains,1,2024-09-11,CS 491 - Disjoint Sets B: Fountains
+120,problems,cs-491-disjoint-sets-c-password-reconstruction,1,2024-09-11,CS 491 - Disjoint Sets C: Password Reconstruction
+121,problems,cs-491-basic-graphs-a-network-topology,1,2024-09-13,CS 491 - Basic Graphs A: Network Topology
+122,problems,cs-491-basic-graphs-b-bus,1,2024-09-13,CS 491 - Basic Graphs B: Bus
+123,problems,cs-491-basic-graphs-c-functional-graphs,1,2024-09-13,CS 491 - Basic Graphs C: Functional Graphs
+124,problems,cs-491-basic-graphs-d-communicating-between-mountains,1,2024-09-13,CS 491 - Basic Graphs D: Communicating between Mountains
+125,problems,cs-491-traversal-problems-a-personal-ai,1,2024-09-16,CS 491 - Traversal Problems A: Personal AI
+126,problems,cs-491-traversal-problems-b-more-pizza-,1,2024-09-16,CS 491 - Traversal Problems B: More Pizza!
+127,problems,cs-491-data-structures-binary-lifting-a-char-s-schedule,1,2024-09-18,CS 491 - Data Structures - Binary Lifting A: CHAR's Schedule
+128,problems,cs-491-data-structures-binary-lifting-b-don-t-you-just-want-that-edge,1,2024-09-18,CS 491 - Data Structures - Binary Lifting B: Don't you just want that Edge
+129,problems,cs-491-single-source-shortest-paths-a-rook-bishop-and-king,1,2024-09-20,CS 491 - Single Source Shortest Paths A: Rook, Bishop and King
+130,problems,cs-491-single-source-shortest-paths-b-match-strings,1,2024-09-20,CS 491 - Single Source Shortest Paths B: Match Strings
+131,problems,cs-491-single-source-shortest-paths-c-biridian-forest,1,2024-09-20,CS 491 - Single Source Shortest Paths C: Biridian Forest
+132,problems,cs-491-all-pair-shortest-path-a-lcms,1,2024-09-23,CS 491 - All Pair Shortest Path A: LCMs
+133,problems,cs-491-all-pair-shortest-path-b-letianpie-and-graph,1,2024-09-23,CS 491 - All Pair Shortest Path B: LetianPie and Graph
+134,problems,cs-491-all-pair-shortest-path-c-floyd-warshall-,1,2024-09-23,CS 491 - All Pair Shortest Path C: Floyd-Warshall?
+135,problems,cs-491-graph-traversals-2-a-network,1,2024-09-25,CS 491 - Graph Traversals 2 A: Network
+136,problems,cs-491-graph-traversals-2-b-police-stations,1,2024-09-25,CS 491 - Graph Traversals 2 B: Police Stations
+137,problems,cs-491-mst-problems-a-magical-graph-cycle-,1,2024-09-27,CS 491 - MST Problems A: Magical Graph Cycle!
+138,problems,cs-491-mst-problems-b-letianpie-and-minimum-spanning-trees,1,2024-09-27,CS 491 - MST Problems B: LetianPie and Minimum Spanning Trees
+139,problems,cs-491-mst-problems-c-xor-mst,1,2024-09-27,CS 491 - MST Problems C: XOR-MST
+140,problems,cs-491-mst-problems-d-covid-test,1,2024-09-27,CS 491 - MST Problems D: Covid Test
+141,problems,cs-491-greedy-problems-a-apples,1,2024-09-30,CS 491 - Greedy Problems A: Apples
+142,problems,cs-491-greedy-problems-b-beautiful-array,1,2024-09-30,CS 491 - Greedy Problems B: Beautiful Array
+143,problems,cs-491-greedy-problems-c-coursework,1,2024-09-30,CS 491 - Greedy Problems C: Coursework
+144,problems,cs-491-greedy-problems-d-delivering-pizza,1,2024-09-30,CS 491 - Greedy Problems D: Delivering Pizza
+145,problems,cs-491-bit-manipulations-a-fibonacci,1,2024-10-02,CS 491 - Bit Manipulations A: Fibonacci
+146,problems,cs-491-bit-manipulations-b-exponential-algorithms,1,2024-10-02,CS 491 - Bit Manipulations B: Exponential Algorithms
+147,problems,cs-491-bit-manipulations-c-partition-to-zero,1,2024-10-02,CS 491 - Bit Manipulations C: Partition to ZERO
+148,problems,cs-491-bit-manipulations-d-exponential-pizzas,1,2024-10-02,CS 491 - Bit Manipulations D: Exponential Pizzas
+149,problems,cs-491-bit-manipulations-e-composing-linear-function,1,2024-10-02,CS 491 - Bit Manipulations E: Composing Linear Function
+150,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-a-point-update-range-query-oct-4-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) A: Point Update, Range Query (Oct. 4)
+151,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-b-range-update-range-query-oct-9-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) B: Range Update, Range Query (Oct. 9)
+152,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-c-stack-your-gold-coins-oct-4-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) C: Stack Your Gold Coins (Oct. 4)
+153,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-d-pot-oct-9-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) D: Pot!! (Oct. 9)
+154,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-e-so-many-registrations-oct-4-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) E: So Many Registrations (Oct. 4)
+155,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-f-kazakhstan-oct-4-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) F: Kazakhstan (Oct. 4)
+156,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-g-grandmaster-oct-4-,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) G: Grandmaster (Oct. 4)
+157,problems,cs-491-data-structures-homework-fenwick-tree-segment-tree-sqrt-decomposition-h-extra-credit-letianpie-with-intersections-of-paths,1,2024-10-04,CS 491 - Data Structures Homework (Fenwick Tree, Segment Tree, Sqrt Decomposition) H: Extra Credit: LetianPie with Intersections of Paths
+158,problems,cs-491-review-of-lca-and-binary-lifting-a-another-array-problem,1,2024-10-14,CS 491 - Review of LCA and Binary Lifting A: Another Array Problem
+159,problems,cs-491-dp-introduction-a-nac,1,2024-10-16,CS 491 - DP Introduction A: NAC
+160,problems,cs-491-dp-introduction-b-game,1,2024-10-16,CS 491 - DP Introduction B: Game
+161,problems,cs-491-dp-introduction-c-maximum-in-table,1,2024-10-16,CS 491 - DP Introduction C: Maximum in Table
+162,problems,cs-491-dp-homework-ii-a-mattox-s-gift,1,2024-10-18,CS 491 - DP Homework II A: Mattox's Gift
+163,problems,cs-491-dp-homework-ii-b-2d-tsp,1,2024-10-18,CS 491 - DP Homework II B: 2D TSP
+164,problems,cs-491-dp-homework-ii-c-mapping,1,2024-10-18,CS 491 - DP Homework II C: Mapping
+165,problems,cs-491-dp-homework-ii-d-mattox-s-book-tower,1,2024-10-18,CS 491 - DP Homework II D: Mattox's Book Tower
+166,problems,cs-491-dp-homework-ii-e-mattox-s-hole-in-one,1,2024-10-18,CS 491 - DP Homework II E: Mattox's Hole-In-One
+167,problems,cs-491-dp-homework-ii-f-collisions,1,2024-10-18,CS 491 - DP Homework II F: Collisions
+168,problems,cs-491-dp-homework-ii-g-flood,1,2024-10-18,CS 491 - DP Homework II G: Flood
+169,problems,cs-491-dp-homework-ii-h-store,1,2024-10-18,CS 491 - DP Homework II H: Store
+170,problems,cs-491-dp-homework-ii-i-has-to-be-distinct,1,2024-10-18,CS 491 - DP Homework II I: Has to be Distinct
+171,problems,cs-491-dp-homework-ii-j-blocked-nodes,1,2024-10-18,CS 491 - DP Homework II J: Blocked Nodes
+172,problems,cs-491-dp-homework-i-a-diffusion-model,1,2024-10-18,CS 491 - DP Homework I A: Diffusion Model
+173,problems,cs-491-dp-homework-i-b-longest-increasing-consecutive-subsequence,1,2024-10-18,CS 491 - DP Homework I B: Longest Increasing Consecutive Subsequence
+174,problems,cs-491-dp-homework-i-c-the-beauty-of-binary,1,2024-10-18,CS 491 - DP Homework I C: The Beauty of Binary
+175,problems,cs-491-dp-homework-i-d-manhattan-distance,1,2024-10-18,CS 491 - DP Homework I D: Manhattan Distance
+176,problems,cs-491-dp-homework-i-e-mattox-s-skills,1,2024-10-18,CS 491 - DP Homework I E: Mattox's Skills
+177,problems,cs-491-dp-homework-i-f-mattox-s-grocery,1,2024-10-18,CS 491 - DP Homework I F: Mattox's Grocery
+178,problems,cs-491-dp-homework-i-g-mattox-s-trip,1,2024-10-18,CS 491 - DP Homework I G: Mattox's Trip
+179,problems,cs-491-dp-homework-i-h-mattox-s-synthesis,1,2024-10-18,CS 491 - DP Homework I H: Mattox's Synthesis
+180,problems,cs-491-dp-homework-i-i-edit-distance,1,2024-10-18,CS 491 - DP Homework I I: Edit Distance
+181,problems,cs-491-dp-homework-i-j-mattox-s-sneezes,1,2024-10-18,CS 491 - DP Homework I J: Mattox's Sneezes
+182,problems,cs-491-strings-a-longest-proper-suffix,1,2024-11-01,CS 491 - Strings A: Longest Proper Suffix
+183,problems,cs-491-strings-b-string-matching,1,2024-11-01,CS 491 - Strings B: String Matching
+184,problems,cs-491-strings-c-interleaving-strings,1,2024-11-01,CS 491 - Strings C: Interleaving Strings
+185,problems,cs-491-strings-d-yet-another-string-problem,1,2024-11-01,CS 491 - Strings D: Yet Another String Problem
+186,problems,cs-491-number-theory-a-make-it-co-prime,1,2024-11-06,CS 491 - Number Theory A: Make It Co-prime
+187,problems,cs-491-number-theory-b-magic-numbers,1,2024-11-06,CS 491 - Number Theory B: Magic Numbers
+188,problems,cs-491-number-theory-c-apples-ii,1,2024-11-06,CS 491 - Number Theory C: Apples II
+189,problems,cs-491-number-theory-d-b-zout-s-identity,1,2024-11-06,CS 491 - Number Theory D: Bézout's identity
+190,problems,cs-491-number-theory-e-expanding-array,1,2024-11-06,CS 491 - Number Theory E: Expanding Array
+191,problems,cs-491-number-theory-f-extrac-credit-letianpie-s-game,1,2024-11-06,CS 491 - Number Theory F: Extrac Credit: LetianPie's Game
+192,problems,cs-491-combinatorics-a-course-staff,1,2024-11-11,CS 491 - Combinatorics A: Course Staff
+193,problems,cs-491-combinatorics-b-practicing,1,2024-11-11,CS 491 - Combinatorics B: Practicing
+194,problems,cs-491-combinatorics-c-safe-handshakes,1,2024-11-11,CS 491 - Combinatorics C: Safe Handshakes
+195,problems,cs-491-combinatorics-d-problem-setting,1,2024-11-11,CS 491 - Combinatorics D: Problem Setting
+196,problems,cs-491-combinatorics-e-eight-sout-queens-rooks,1,2024-11-11,CS 491 - Combinatorics E: Eight \sout{Queens} Rooks
+99,problems,contest,1,2024-12-19,Contest
