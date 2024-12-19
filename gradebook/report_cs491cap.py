@@ -15,7 +15,7 @@ import subprocess
 from contextlib import redirect_stdout
 from openpyxl import Workbook
 
-from gradebook.config import GITHUB_URL, TERM_CODE
+from gradebook.config import GITHUB_URL, TERM_CODE, CRNS
 from gradebook.db import session
 from gradebook.parser import subparsers
 from gradebook.categories import Category
@@ -140,6 +140,7 @@ def report_netid(netid, uin=''):
             entry['Score'] = 'Pending'
         elif score.status == 'x':
             entry['Score'] = 'Excused'
+            solves = solves + 1
         elif score.status == 'm':
             entry['Score'] = 'Missing'
             problems.append(0)
@@ -165,9 +166,13 @@ def report_netid(netid, uin=''):
         print(f'\n- Problems Average: {problems_total:.2f}% ({solves}/{count} problems).\n\n')
 
     if attendance_total < 0.6 or solves < 60:
-        return "U"
+        result = "U"
     else:
-        return "S"
+        result = "S"
+        
+    print(f"\nResult: {result}\n")
+
+    return result
 
 
 
@@ -235,6 +240,27 @@ def get_report(params):
 
     else:
         report_netid(params['netid'], params['uin'])
+
+def write_final_grade_spreadsheet(params):
+    """Create the spreadsheet for uploading final grades to the university."""
+
+    wb = Workbook()
+    ws = wb.active
+
+    if CRNS == [] or TERM_CODE == '':
+        print("Warning: CRN and TERM_CODE were not defined.")
+
+    ws.append(['Term Code','CRN','Student ID','Final Grade'])
+
+    with open(f"/dev/null",'w') as devnull:
+        query = session.query(Student).filter(Student.status=='r')
+        for student in query.all():
+            with redirect_stdout(devnull):
+                result = report_netid(student.netid)
+                data = [TERM_CODE,student.crn,student.uin,result]
+                ws.append(data)
+
+    wb.save('output-files/grades.xlsx')
 
 # --------------------------------------------------------------------------------
 # Report Parser

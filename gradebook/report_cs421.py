@@ -396,8 +396,8 @@ def write_final_grade_spreadsheet(params):
     wb = Workbook()
     ws = wb.active
 
-    if CRN == '' or TERM_CODE == '':
-        print("Warning: CRN and TERM_CODE were not defined.")
+    if CRNS == [] or TERM_CODE == '':
+        print("Warning: CRNS and TERM_CODE were not defined.")
 
     ws.append(['Term Code','CRN','Student ID','Final Grade'])
 
